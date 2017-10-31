@@ -1,0 +1,13 @@
+
+
+TKC
+
+ADMIN ID: TKCAdmin 	PASSWORD:  E(qNW9aO
+USER ID: ECUser	PASSWORD: 10nrszMoc1
+DATABASE: TKC	SERVER:  mimas.itds.unt.edu
+
+Data Source=mimas.itds.unt.edu;Initial Catalog=TKC;Persist Security Info=True;User ID=TKCAdmin
+
+
+
+
