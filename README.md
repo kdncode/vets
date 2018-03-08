@@ -10,7 +10,7 @@ An e-commerce website for veterans
 
 •	Implemented a username/password authentication ﬂow
 
-•	Built with C#, ASP.NET, MS SQL, HTML, CSS, Javascript, JQuery, Boostrap
+•	Built with C#, ASP.NET, MS SQL Server, HTML, CSS, Javascript, JQuery, Boostrap
 
 
 
