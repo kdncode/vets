@@ -12,7 +12,7 @@ An e-commerce website for veterans
 
 •	Built with C#, ASP.NET, MS SQL Server, HTML, CSS, Javascript, JQuery, Boostrap
 
-•	Deployed the website with Somee.com 
+•	Deployed the website with Somee.com, Azure
 
 
 
