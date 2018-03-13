@@ -77,19 +77,14 @@
             <br />
             <asp:Button ID="btnSave" runat="server" class="btn btn-outline-secondary" OnClick="btnSave_Click" Text="Save" />
 
-     
-
   </div>
 
     </center> 
 
               <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
- 
- 
+
         <script type="text/javascript">
         $(' .phone1').mask('(999) 999-9999');
     </script>
 
-  
 </asp:Content>
-
