@@ -103,8 +103,7 @@ public partial class CheckOut : System.Web.UI.Page
             Response.Redirect("CheckOut.aspx");
         }
     }
-
-
+    
     protected void btnPlaceOrder_Click(object sender, EventArgs e)
     {
         
