@@ -22,9 +22,7 @@ public partial class Confirmation : System.Web.UI.Page
     {
 
         con.Open();
-       
-
-       
+    
             SqlCommand cmd = con.CreateCommand();
             cmd.CommandType = CommandType.Text;
             cmd.CommandText = "SELECT * FROM SIGNUP WHERE Email = '" + Session["Username"].ToString() + "'";
@@ -52,7 +50,6 @@ public partial class Confirmation : System.Web.UI.Page
             {
             Order_ID = dr2["ID"].ToString();
          
-
             }
 
         //SqlCommand cmd3 = con.CreateCommand();
@@ -61,12 +58,5 @@ public partial class Confirmation : System.Web.UI.Page
         //cmd3.ExecuteNonQuery();
 
         Response.Redirect("ThankYou.aspx");
-
-
-
-            
-
-
-
-    }
+   }
 }
