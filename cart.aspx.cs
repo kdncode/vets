@@ -147,7 +147,6 @@ public partial class cart : System.Web.UI.Page
         else
         {
 
-
             Response.Redirect("Update_Order_Details.aspx");
         }
 
