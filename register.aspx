@@ -67,8 +67,6 @@
         $(' .phone1').mask('(999) 999-9999');
     </script>
 
-
-
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TKCConnectionString %>" 
         InsertCommand="INSERT INTO [SIGNUP] (Email, Password, FirstName, LastName, Address, City, State, Zipcode, Country, Phone) VALUES (@Email, @Password, @FirstName, @LastName, @Address, @City, @State, @Zipcode, @Country, @Phone)" 
         SelectCommand="SELECT Email, Password, FirstName, LastName, Address, City, State, Zipcode, Country, Phone FROM [SIGNUP]">
@@ -86,7 +84,6 @@
                         <asp:Parameter Name="Phone" />
 
          </InsertParameters>
-
 
     </asp:SqlDataSource>
  
