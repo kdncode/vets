@@ -63,7 +63,7 @@
      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> <br /><br /><br /><br /><br /><br /><br /><br />
 
         <script type="text/javascript">
-        $('.phone1').mask('(999) 999-9999');
+        $(' .phone1').mask('(999) 999-9999');
     </script>
 
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:TKCConnectionString %>" 
