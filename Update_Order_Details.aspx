@@ -42,14 +42,13 @@
                 <asp:Parameter Name="Country"  />
                 <asp:Parameter Name="Phone"  />
             </InsertParameters>
-        </asp:SqlDataSource>--%>
+        </asp:SqlDataSource> --%>
 
        <center>
         <div class ="Login">
-    
+   
         <h2>Ship to</h2>
-        <center>
-    
+        <center> 
             <asp:TextBox ID="txtFName1" runat="server" Font-Names="Poppins" placeholder="First name" CssClass="Register_un"></asp:TextBox>
             <asp:RequiredFieldValidator ID="rfvFName" runat="server"  ErrorMessage="Please enter your First Name" ControlToValidate="txtFName1" ForeColor="#FF6666"  Font-Names="Poppins" Font-Size="Small" Font-Bold="False"></asp:RequiredFieldValidator>
             <br />
@@ -74,8 +73,7 @@
             <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ErrorMessage="Please enter a valid zipcode" ForeColor="#FF6666"  Font-Names="Poppins" Font-Size="Small"  ControlToValidate="txtZipcode1" ValidationExpression="\d{5}(-\d{4})?"></asp:RegularExpressionValidator>
 <br />
             <asp:TextBox ID="txtCountry1" runat="server"  placeholder="Country" Font-Names="Poppins"  CssClass="Register_un"></asp:TextBox>   
-             <asp:RequiredFieldValidator ID="rfvCountry" runat="server" ErrorMessage="Please enter your country" ControlToValidate="txtCountry1" ForeColor="#FF6666"  Font-Names="Poppins" Font-Size="Small" ></asp:RequiredFieldValidator>
-            
+             <asp:RequiredFieldValidator ID="rfvCountry" runat="server" ErrorMessage="Please enter your country" ControlToValidate="txtCountry1" ForeColor="#FF6666"  Font-Names="Poppins" Font-Size="Small" ></asp:RequiredFieldValidator>      
   <br />
             <asp:TextBox ID="txtPhone1" runat="server"  placeholder="Phone Number" Font-Names="Poppins"  CssClass="Register_un"></asp:TextBox>   
             
