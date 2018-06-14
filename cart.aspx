@@ -21,8 +21,7 @@
                   
                    <asp:Image ID="Image1" runat="server" AlternateText="Care Package" Height="84px" Width="89px"  
                        ImageUrl='~/img/cart.jpg' />
-                   
-                   
+       
                </ItemTemplate>
            </asp:TemplateField>
            <asp:BoundField DataField="TenSP" HeaderText="Product Name" />
