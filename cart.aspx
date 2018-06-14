@@ -52,17 +52,22 @@
 
 <style>
     .Grid {background-color: #fff; margin: 5px 0 10px 0; border: solid 1px #c1c1c1; border-collapse:collapse; font-family:Poppins; color: #474747;}
-.Grid td {
+    
+    .Grid td {
       padding: 20px;
-      border: solid 1px #c1c1c1; }
-.Grid th  {
+      border: solid 1px #c1c1c1; 
+    }
+    
+    .Grid th  {
       position: center;
       padding : 10px 8px;
       color: #fff;
       background: #69e8a2 repeat-x top;
       border-left: solid 1px #c1c1c1;
-      font-size: 0.9em; }
-.Grid .alt {
+      font-size: 0.9em; 
+    }
+
+    .Grid .alt {
       background: #fcfcfc repeat-x top; }
 .Grid .pgr {background: #69e8a2 repeat-x top; }
 .Grid .pgr table { margin: 10px 0; }
