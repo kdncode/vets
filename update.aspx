@@ -9,7 +9,6 @@
      
         <h2 style="color: rebeccapurple";>Update Your Info</h2>
 
-
      <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:TKCConnectionString %>"
             SelectCommand="SELECT [Email], [Password], [FirstName], [LastName], [Address], [City], [State], [Zipcode], [Country], [Phone], FROM [SIGNUP] WHERE ([Email] = @Email)"
             UpdateCommand="UPDATE [SIGNUP] SET [Password] = @Password, [FirstName] = @FirstName, [LastName] = @LastName, [Address] = @Address,
