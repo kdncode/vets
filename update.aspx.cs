@@ -55,5 +55,4 @@ public partial class update : System.Web.UI.Page
         Response.Redirect("MyAccount.aspx");
     }
 
-
 }
