@@ -17,7 +17,6 @@ public partial class Confirmation : System.Web.UI.Page
     string t;
     string[] a = new string[6];
 
-
     protected void Page_Load(object sender, EventArgs e)
     {
 
