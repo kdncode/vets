@@ -53,6 +53,4 @@ public partial class Update_Order_Details : System.Web.UI.Page
         Response.Redirect("CheckOut.aspx");
     }
 
-    
-
 }
