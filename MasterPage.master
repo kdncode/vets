@@ -74,9 +74,7 @@
                             <li><a href="MyAccount.aspx" id="MyAccountButton1" runat="server" title="Sign In">My Account</a></li>
                             <li><a id="logoutButt" runat="server" title="Log Out" onserverclick="logoutButt_ServerClick">Log out</a></li>
                             <li><a href="register.aspx" id="registerButton" runat="server" title="Register">Register</a></li>
-                            <li><a href="cart.aspx" class='fa fa-shopping-cart'></a></li>
-                           
-                            
+                            <li><a href="cart.aspx" class='fa fa-shopping-cart'></a></li>              
                           
           </ul>
 
