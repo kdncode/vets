@@ -38,7 +38,6 @@ public partial class update : System.Web.UI.Page
             txtZipcode.Text = dr["Zipcode"].ToString();
             txtCountry.Text = dr["Country"].ToString();
             txtPhone.Text = dr["Phone"].ToString();
-
         }
     }
 
