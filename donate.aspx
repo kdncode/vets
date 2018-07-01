@@ -14,7 +14,6 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
    <center>
 
-
        <br /><br />
                   <center>
                       <h2 style="color: rebeccapurple";>Make A Donation</h2><br />
@@ -28,7 +27,6 @@
     <br /><br />
         <div class="Login">
 
-    
                     <asp:DropDownList ID="DropDownList1" runat="server" CssClass="Signup_FName">
                         <asp:ListItem>Please Select</asp:ListItem>
                         <asp:ListItem>Visa</asp:ListItem>
@@ -75,7 +73,4 @@
       
        <br /><br /><br /><br /><br /><br /><br />
 
-     
-
 </asp:Content>
-
