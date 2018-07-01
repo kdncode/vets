@@ -147,6 +147,5 @@ public partial class cart : System.Web.UI.Page
             Response.Redirect("Update_Order_Details.aspx");
         }
 
-       
     }
 }
