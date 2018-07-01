@@ -48,7 +48,6 @@ public partial class Confirmation : System.Web.UI.Page
             foreach (DataRow dr2 in dt2.Rows)
             {
             Order_ID = dr2["ID"].ToString();
-         
             }
 
         //SqlCommand cmd3 = con.CreateCommand();
