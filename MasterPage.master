@@ -82,11 +82,11 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-                           <div>
-                                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+    <div>
+      <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         
-                                </asp:ContentPlaceHolder>
-                            </div>
+      </asp:ContentPlaceHolder>
+     </div>
    
          </form>
         <br />
