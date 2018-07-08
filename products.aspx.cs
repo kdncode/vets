@@ -49,8 +49,6 @@ public partial class products : System.Web.UI.Page
         //Response.Redirect("cart.aspx");
     }
 
-
-
     protected void DataList1_ItemCommand(object source, DataListCommandEventArgs e)
     {
         if (e.CommandName == "GioHang")
