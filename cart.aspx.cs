@@ -135,7 +135,6 @@ public partial class cart : System.Web.UI.Page
     protected void Button2_Click(object sender, EventArgs e)
     {
 
-
         if (Session["Username"] == null)
         {
             Response.Redirect("signin.aspx");
