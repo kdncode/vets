@@ -24,8 +24,7 @@ public partial class MasterPage : System.Web.UI.MasterPage
                 registerButton.Visible = false;
                 MyAccountButton1.Visible = true;
                 logoutButt.Visible = true;
-            }
-           
+            }        
         }
     }
 
