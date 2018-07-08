@@ -17,7 +17,6 @@ public partial class cart : System.Web.UI.Page
 
         if (!IsPostBack)
         {
-
                 if (Request.QueryString["P_ID"] != null)
             {
                 int idSP = int.Parse(Request.QueryString["P_ID"]);
