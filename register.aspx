@@ -5,7 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">         
     <center>
         <div class ="Login">
-            <center><h1>Register </h1></center>
+            <center><h1> Register </h1></center>
 
             <asp:TextBox ID="txtFName" runat="server" Font-Names="Poppins" placeholder="First name" CssClass="Register_un"></asp:TextBox>
             <asp:RequiredFieldValidator ID="rfvFName" runat="server"  ErrorMessage="Please enter your First Name" ControlToValidate="txtFName" ForeColor="#FF6666"  Font-Names="Poppins" Font-Size="Small" Font-Bold="False"></asp:RequiredFieldValidator>
@@ -71,8 +71,8 @@
         SelectCommand="SELECT Email, Password, FirstName, LastName, Address, City, State, Zipcode, Country, Phone FROM [SIGNUP]">
                
          <InsertParameters>
-                        <asp:Parameter Name="Email" />
-                        <asp:Parameter Name="Password" />
+              <asp:Parameter Name="Email" />
+              <asp:Parameter Name="Password" />
                         <asp:Parameter Name="FirstName" />
                         <asp:Parameter Name="LastName" />
                         <asp:Parameter Name="Address" />
