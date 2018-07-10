@@ -4,8 +4,8 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <br />  
-                  <center>
-                      <h2 style="color: rebeccapurple";>About TKC Company</h2><br />
+  <center>
+     <h2 style="color: rebeccapurple";>About TKC Company</h2><br />
     <div class="AboutTKC">
         <p>TKC is an organization that strives to make the lives of those deployed more comfortable, and the lives of
                    injured veterans more functional through the donation of prosthetics.</p>
