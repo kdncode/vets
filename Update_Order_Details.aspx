@@ -3,8 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <br />
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server"> <br />
     
 <%--     <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:TKCConnectionString %>"
             SelectCommand="SELECT [Email], [Password], [FirstName], [LastName], [Address], [City], [State], [Zipcode], [Country], [Phone], FROM [SIGNUP] WHERE ([Email] = @Email)"
@@ -87,8 +86,8 @@
         </center>
   </div>
     </center> 
-
-        <script type="text/javascript">
+    
+    <script type="text/javascript">
         $(' .phone1').mask('(999) 999-9999');
     </script>
 
