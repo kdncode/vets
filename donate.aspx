@@ -15,7 +15,7 @@
    <center>
 
        <br /><br />
-                  <center>
+       <center>
                       <h2 style="color: rebeccapurple";>Make A Donation</h2><br />
     <div class="AboutTKC">
         <p>Your donation will help save a life. It enables the equipment, counselors, <br /> training, and programs to help veterans on the brink.</p>
