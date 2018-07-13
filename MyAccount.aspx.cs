@@ -35,7 +35,6 @@ public partial class MyAccount : System.Web.UI.Page
 
     protected void ViewCart_Click(object sender, EventArgs e)
     {
-
         Response.Redirect("cart.aspx");
     }
 
