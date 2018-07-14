@@ -16,7 +16,6 @@ public partial class CheckOut : System.Web.UI.Page
     string order_no;
     protected void Page_Load(object sender, EventArgs e)
     {
-
         if (!IsPostBack)
         {
             if (Request.QueryString["P_ID"] != null)
