@@ -105,7 +105,6 @@ public partial class CheckOut : System.Web.UI.Page
     protected void btnPlaceOrder_Click(object sender, EventArgs e)
     {
         
-                Response.Redirect("Confirmation.aspx");    
-
+            Response.Redirect("Confirmation.aspx");    
     }
 }
