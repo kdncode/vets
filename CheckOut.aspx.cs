@@ -62,9 +62,7 @@ public partial class CheckOut : System.Web.UI.Page
         if (dong != -1)
         {
             dt.Rows[dong]["SoLuong"] = Convert.ToInt32(dt.Rows[dong]["SoLuong"]) + Soluong;
-        }
-        else
-        {
+        } else {
             DataRow dr = dt.NewRow();
             dr["idSP"] = idSP;
             dr["TenSP"] = TenSP;
