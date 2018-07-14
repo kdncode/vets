@@ -39,7 +39,7 @@ public partial class CheckOut : System.Web.UI.Page
             gvCart.DataBind();
         }
 
-         //Generate order number 
+            //Generate order number 
             order_no = Class1.GetRandomPassword(10).ToString();
             Session["order_no"] = order_no.ToString();
     }
