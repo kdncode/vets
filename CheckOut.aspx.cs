@@ -42,7 +42,6 @@ public partial class CheckOut : System.Web.UI.Page
          //Generate order number 
             order_no = Class1.GetRandomPassword(10).ToString();
             Session["order_no"] = order_no.ToString();
-
     }
 
     public void ThemVaoGioHang(int idSP, string TenSP, int Dongia, int Soluong)
