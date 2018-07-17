@@ -8,8 +8,7 @@
      <h2 style="color: rebeccapurple";>About TKC Company</h2><br />
     <div class="AboutTKC">
         <p>TKC is an organization that strives to make the lives of those deployed more comfortable, and the lives of
-                   injured veterans more functional through the donation of prosthetics.</p>
-                      <br />
+                   injured veterans more functional through the donation of prosthetics.</p><br />
      <p>This company was started with the intention of giving military members, both active and retired, peace of mind. We aim to accomplish this by letting deployed individuals feel more connected to home, and giving injured veterans a chance to overcome those injuries. </p>
         </div>
 </center>
