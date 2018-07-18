@@ -85,9 +85,7 @@
                         ValidationExpression="^[\d]{3,3}$"></asp:RegularExpressionValidator>
             <br />
              <asp:Button ID="btnPlaceOrder" Text="Place your order" class="btn btn-outline-secondary" runat="server" OnClick="btnPlaceOrder_Click"/>
-            </div>     <br />
-
-<br /><br />
+            </div>     <br /><br /><br />
 
 <style>
 
