@@ -43,9 +43,7 @@
     <asp:Label ID="Label1" runat="server" Text="$"></asp:Label>
         <asp:Label ID="lbTongTien1" runat="server"></asp:Label><br /><br />
         &nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp
-          <div class="Login">
-
-     <br />
+          <div class="Login">   <br />
            
         <img src="img/donatepayment.png" 
             alt="Donate" height="150" width ="220">
