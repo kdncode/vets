@@ -46,9 +46,7 @@
           <div class="Login">   <br />
            
         <img src="img/donatepayment.png" 
-            alt="Donate" height="150" width ="220">
-        
-    <br /><br />
+            alt="Donate" height="150" width ="220"> <br /><br />
                     <asp:DropDownList ID="DropDownList1" runat="server" CssClass="Signup_FName">
                         <asp:ListItem>Please Select</asp:ListItem>
                         <asp:ListItem>Visa</asp:ListItem>
