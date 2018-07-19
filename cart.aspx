@@ -37,8 +37,7 @@
        </Columns>
 
 <PagerStyle CssClass="pgr"></PagerStyle>
-   </asp:GridView>
-        <br />
+   </asp:GridView><br />
         <asp:SqlDataSource ID="SqlDataSource1" runat="server"></asp:SqlDataSource>
   <b>Order total:&nbsp;</b>
     <asp:Label ID="Label1" runat="server" Text="$"></asp:Label>
