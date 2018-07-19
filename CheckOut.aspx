@@ -53,8 +53,7 @@
                         <asp:ListItem>MasterCard</asp:ListItem>
                         <asp:ListItem>American Express</asp:ListItem>
                         <asp:ListItem>Discover Network</asp:ListItem>
-                    </asp:DropDownList>
-            <br /><br />
+                    </asp:DropDownList><br /><br />
         
                     <asp:TextBox ID="TextBox9" runat="server" placeholder="Name On Card" 
                         CssClass="Login_un"></asp:TextBox>
