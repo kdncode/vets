@@ -78,8 +78,8 @@
                         CssClass="Login_un"></asp:TextBox>
                         <asp:RegularExpressionValidator ID="RegularExpressionValidator11" runat="server" ErrorMessage="CVV code must be 3 digits" 
                         ControlToValidate="TextBox13" ForeColor="#FF6666"  Font-Names="Poppins" Font-Size="Small" 
-                        ValidationExpression="^[\d]{3,3}$"></asp:RegularExpressionValidator>
-            <br />
+                        ValidationExpression="^[\d]{3,3}$"></asp:RegularExpressionValidator><br />
+              
              <asp:Button ID="btnPlaceOrder" Text="Place your order" class="btn btn-outline-secondary" runat="server" OnClick="btnPlaceOrder_Click"/>
             </div>     <br /><br /><br />
 
