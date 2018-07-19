@@ -65,8 +65,8 @@
               
                     <asp:RegularExpressionValidator ID="RegularExpressionValidator8" runat="server" ErrorMessage="Please enter a valid card number" 
                         ControlToValidate="TextBox10" ForeColor="#FF6666"  Font-Names="Poppins" Font-Size="Small" 
-                        ValidationExpression="^[\d]{16,16}$"></asp:RegularExpressionValidator>
-            <br />
+                        ValidationExpression="^[\d]{16,16}$"></asp:RegularExpressionValidator><br />
+              
                     <asp:TextBox ID="TextBox11" runat="server" Width="100px" placeholder="MM/YYYY" 
                         CssClass="Login_un"></asp:TextBox>
             <br />
