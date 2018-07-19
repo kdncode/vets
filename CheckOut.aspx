@@ -68,8 +68,7 @@
                         ValidationExpression="^[\d]{16,16}$"></asp:RegularExpressionValidator><br />
               
                     <asp:TextBox ID="TextBox11" runat="server" Width="100px" placeholder="MM/YYYY" 
-                        CssClass="Login_un"></asp:TextBox>
-            <br />
+                        CssClass="Login_un"></asp:TextBox><br />
                     
   <asp:RegularExpressionValidator ID="RegularExpressionValidator9" runat="server" ErrorMessage="Expiration date must be valid & in form MM/YYYY" 
                         ControlToValidate="TextBox11" ForeColor="#FF6666"  Font-Names="Poppins" Font-Size="Small" 
