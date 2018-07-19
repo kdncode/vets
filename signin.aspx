@@ -11,11 +11,9 @@
              
             <form>
          
-            <asp:TextBox ID="txtUsername" runat="server"  Font-Names="Poppins" placeholder="Email" CssClass="Login_un"></asp:TextBox>
-<br />
+            <asp:TextBox ID="txtUsername" runat="server"  Font-Names="Poppins" placeholder="Email" CssClass="Login_un"></asp:TextBox><br />
 
-            <asp:TextBox ID="txtPassword" runat="server" Font-Names="Poppins" placeholder="Password" CssClass="Login_un" TextMode="Password"></asp:TextBox>    
-<br />
+            <asp:TextBox ID="txtPassword" runat="server" Font-Names="Poppins" placeholder="Password" CssClass="Login_un" TextMode="Password"></asp:TextBox><br />
                
             <asp:Button ID="btnSignIn" runat="server" Font-Names="Poppins" Text="Sign in" CssClass="Login_btn" OnClick="btnSignIn_Click"  />
             <br /><br /> <br />
