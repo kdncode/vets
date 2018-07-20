@@ -82,7 +82,6 @@
               
              <asp:Button ID="btnPlaceOrder" Text="Place your order" class="btn btn-outline-secondary" runat="server" OnClick="btnPlaceOrder_Click"/>
             </div><br /><br /><br />
-
 <style>
 
     .Grid {background-color: #fff; margin: 5px 0 10px 0; border: solid 1px #c1c1c1; border-collapse:collapse; font-family:Poppins; color: #474747;}
