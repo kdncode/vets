@@ -30,8 +30,8 @@
             <asp:RequiredFieldValidator ID="rfvCity" runat="server" ErrorMessage="Please enter your city" ControlToValidate="txtCity" ForeColor="#FF6666"  Font-Names="Poppins" Font-Size="Small" ></asp:RequiredFieldValidator>
             <br />
 
-             <asp:TextBox ID="txtState" runat="server"  placeholder="State" Font-Names="Poppins"  CssClass="Register_un"></asp:TextBox>     
-             <asp:RequiredFieldValidator ID="rfvState" runat="server" ErrorMessage="Please enter your state" ControlToValidate="txtState" ForeColor="#FF6666"  Font-Names="Poppins" Font-Size="Small" ></asp:RequiredFieldValidator>
+            <asp:TextBox ID="txtState" runat="server"  placeholder="State" Font-Names="Poppins"  CssClass="Register_un"></asp:TextBox>     
+            <asp:RequiredFieldValidator ID="rfvState" runat="server" ErrorMessage="Please enter your state" ControlToValidate="txtState" ForeColor="#FF6666"  Font-Names="Poppins" Font-Size="Small" ></asp:RequiredFieldValidator>
             <br />
  
             <asp:TextBox ID="txtZipcode" runat="server"  placeholder="Zipcode" Font-Names="Poppins"  CssClass="Register_un"></asp:TextBox>        
