@@ -9,7 +9,6 @@ using System.Data.SqlClient;
 
 public partial class Update_Order_Details : System.Web.UI.Page
 {
-
     SqlConnection con = new SqlConnection(@"Data Source=mimas.itds.unt.edu;Initial Catalog=TKC;Persist Security Info=True;User ID=TKCAdmin;Password=E(qNW9aO");
 
     protected void Page_Load(object sender, EventArgs e)
