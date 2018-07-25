@@ -20,9 +20,7 @@
         <p>Your donation will help save a life. It enables the equipment, counselors, <br /> training, and programs to help veterans on the brink.</p>
         <br />
            
-        <img src="img/donatepayment.png" alt="Donate" height="150" width ="220">
-        
-    <br /><br />
+        <img src="img/donatepayment.png" alt="Donate" height="150" width ="220"> <br /><br />
         <div class="Login">
 
                     <asp:DropDownList ID="DropDownList1" runat="server" CssClass="Signup_FName">
