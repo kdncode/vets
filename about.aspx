@@ -223,7 +223,6 @@
     <script>
          $().ready(function(){
             $('[rel="tooltip"]').tooltip();
-
         });
 
         function rotateCard(btn){
