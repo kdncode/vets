@@ -35,8 +35,8 @@
             <br /><br />
         
                     <asp:TextBox ID="TextBox9" runat="server" placeholder="Name On Card" 
-                        CssClass="Login_un"></asp:TextBox>
-            <br />
+                        CssClass="Login_un"></asp:TextBox><br />
+            
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator12" runat="server" ErrorMessage="Please enter your Cardholder Name" 
                        ControlToValidate="TextBox9" ForeColor="#FF6666"  Font-Names="Poppins" Font-Size="Small" ></asp:RequiredFieldValidator>
               
