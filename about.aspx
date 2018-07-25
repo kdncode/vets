@@ -218,8 +218,6 @@
     <div class="space-200"></div>
 </div>
 
-
-
     <script>
          $().ready(function(){
             $('[rel="tooltip"]').tooltip();
