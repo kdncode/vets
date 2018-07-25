@@ -64,8 +64,7 @@
                         ValidationExpression="^[\d]{3,3}$"></asp:RegularExpressionValidator>
             <br />
              <asp:Button ID="DonateButton" runat="server" Font-Names="Poppins" CssClass="btn btn-outline-secondary" OnClick="DonateButton_Click" Text="Donate" />
-            </div>
-        <br />
+            </div><br />
 </center>
   </div>
  <br /><br /><br /><br /><br /><br /> <br /><br /><br /><br /><br /><br /><br />
