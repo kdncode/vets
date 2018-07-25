@@ -11,10 +11,9 @@
         }
     </style>
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-   <center>
 
-       <br /><br />
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+   <center><br /><br />
        <center>
                       <h2 style="color: rebeccapurple";>Make A Donation</h2><br />
     <div class="AboutTKC">
