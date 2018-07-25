@@ -69,7 +69,7 @@
       background: #fcfcfc repeat-x top; 
     }
     
-    .Grid .pgr {background: #69e8a2 repeat-x top; }
+    .Grid .pgr { background: #69e8a2 repeat-x top; }
     .Grid .pgr table { margin: 10px 0; }
     .Grid .pgr td { border-width: 0; padding: 0 6px; border-left: solid 1px #666; font-weight: bold; color: #fff; line-height: 12px; }  
     .Grid .pgr a { color: Gray; text-decoration: none; }
