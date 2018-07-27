@@ -40,8 +40,7 @@
               
   
                     <asp:TextBox ID="TextBox10" runat="server" placeholder="Card Number" 
-                        CssClass="Login_un"></asp:TextBox>
-            <br />
+                        CssClass="Login_un"></asp:TextBox><br />
                     <asp:RegularExpressionValidator ID="RegularExpressionValidator8" runat="server" ErrorMessage="Please enter a valid card number" 
                         ControlToValidate="TextBox10" ForeColor="#FF6666"  Font-Names="Poppins" Font-Size="Small" 
                         ValidationExpression="^[\d]{16,16}$"></asp:RegularExpressionValidator> <br />
