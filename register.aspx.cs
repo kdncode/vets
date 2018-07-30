@@ -41,7 +41,6 @@ public partial class register : System.Web.UI.Page
             }
             else
             {
-
                 SqlConnection myConnection = new SqlConnection(SqlDataSource1.ConnectionString);
                 SqlCommand myCommand = new SqlCommand(SqlDataSource1.InsertCommand);
                 myCommand.Connection = myConnection;
@@ -62,7 +61,6 @@ public partial class register : System.Web.UI.Page
                 myConnection.Close();
 
                 Response.Redirect("signin.aspx");
-
             }
         }
 
