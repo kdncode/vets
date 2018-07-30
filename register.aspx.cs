@@ -59,6 +59,5 @@ public partial class register : System.Web.UI.Page
                 Response.Redirect("signin.aspx");
             }
         }
-
     }
 }
