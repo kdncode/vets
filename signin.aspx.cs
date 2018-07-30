@@ -89,8 +89,6 @@ public partial class signin : System.Web.UI.Page
         }
     }
 
-
-
     protected void btnUpdate_Click(object sender, EventArgs e)
     {
         string UserID = "";
@@ -125,6 +123,5 @@ public partial class signin : System.Web.UI.Page
                 lblMessage.Text = "Incorrect Username or Password";
             }
         }
-
     }
 }
