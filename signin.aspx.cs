@@ -65,7 +65,6 @@ public partial class signin : System.Web.UI.Page
         else
         {
 
-
             if (dt.Rows.Count>0)
             {
                 if (Session["CheckOutButton"] == "yes")
