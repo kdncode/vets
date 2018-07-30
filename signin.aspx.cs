@@ -28,8 +28,7 @@ public partial class signin : System.Web.UI.Page
                 txtUsername.Visible = true;
                 txtPassword.Visible = true;
                 btnSignIn.Visible = true;
-                Hienthi.Visible = false;
-                
+                Hienthi.Visible = false;       
             }
         }
     }
