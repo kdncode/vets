@@ -122,10 +122,7 @@ public partial class signin : System.Web.UI.Page
             }
             else
             {
-
-
                 lblMessage.Text = "Incorrect Username or Password";
-
             }
         }
 
