@@ -30,17 +30,13 @@ public partial class register : System.Web.UI.Page
 
             int temp = Convert.ToInt32(com.ExecuteScalar().ToString());
 
-
             conn.Close();
 
             if (temp == 1)
             {
                 lblExist.Text = "That username is taken. Try another.";
-
-
             }
-            else
-            {
+            else {
                 SqlConnection myConnection = new SqlConnection(SqlDataSource1.ConnectionString);
                 SqlCommand myCommand = new SqlCommand(SqlDataSource1.InsertCommand);
                 myCommand.Connection = myConnection;
