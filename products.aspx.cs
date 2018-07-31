@@ -53,7 +53,6 @@ public partial class products : System.Web.UI.Page
     {
         if (e.CommandName == "GioHang")
         {
-            
                 int intidSP = int.Parse(DataList1.DataKeys[e.Item.ItemIndex].ToString());
                 DataTable Temp = db.GetTable("select P_Name, P_Price from products Where P_ID='"+intidSP+"'");
                 string strTenSP = Temp.Rows[0][0].ToString();
