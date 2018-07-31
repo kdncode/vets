@@ -49,8 +49,7 @@ public partial class update : System.Web.UI.Page
         cmd.ExecuteNonQuery();
 
         con.Close();
-
+        
         Response.Redirect("MyAccount.aspx");
     }
-
 }
