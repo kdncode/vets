@@ -74,7 +74,6 @@ public partial class products : System.Web.UI.Page
                 Session["GioHang"] = tbGioHang;      
 
                 Response.Write("<script>alert('The item has been successfully added to cart')</script>");          
-
         }
 }
 
