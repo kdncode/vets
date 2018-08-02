@@ -8,8 +8,7 @@
        <p> 
 <asp:Label ID="lblMyAccount" runat="server" Text="Label" Font-Bold="True" Font-Size="X-Large" 
     ForeColor="red">Welcome to my website.</asp:Label>
-      </p>
-    <br />
+      </p><br />
     </div>
         
          <br /> <br /> 
