@@ -10,7 +10,6 @@
     ForeColor="red">Welcome to my website.</asp:Label>
       </p><br />
     </div>
-        
          <br /> <br /> 
     <asp:Button ID="btnUpdate1" runat="server" Text="Update Your Info"  class="btn btn-outline-secondary" OnClick="btnUpdate1_Click"  />
             <br /><br />
