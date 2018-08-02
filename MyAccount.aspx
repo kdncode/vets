@@ -12,7 +12,6 @@
     </div> <br /> <br /> 
     <asp:Button ID="btnUpdate1" runat="server" Text="Update Your Info"  class="btn btn-outline-secondary" OnClick="btnUpdate1_Click"  />
             <br /><br />
-
     <asp:Button ID="btnLogOut" runat="server" Text="Browse Products" class="btn btn-outline-secondary" OnClick="btnLogOut_Click" />
          <br /> <br /> 
     <asp:Button ID="ViewCart" runat="server" Text="View Cart"  class="btn btn-outline-secondary" OnClick="ViewCart_Click"  />
