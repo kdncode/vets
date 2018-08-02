@@ -17,7 +17,6 @@
          <br /> <br /> 
     <asp:Button ID="ViewCart" runat="server" Text="View Cart"  class="btn btn-outline-secondary" OnClick="ViewCart_Click"  />
             <br /><br />
-
     </center>
     <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 </asp:Content>
