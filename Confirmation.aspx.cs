@@ -52,7 +52,6 @@ public partial class Confirmation : System.Web.UI.Page
         //cmd3.CommandType = CommandType.Text;
         //cmd3.CommandText = "INSERT INTO OrderDetails VALUES('" + Order_ID.ToString() + "', '" + a[0].ToString() + "', '" + a[2].ToString() + "', '" + a[3].ToString() + "', '" + a[4].ToString() + "')";
         //cmd3.ExecuteNonQuery();
-
         Response.Redirect("ThankYou.aspx");
    }
 }
