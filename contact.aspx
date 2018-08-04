@@ -93,8 +93,7 @@
                             <i class="fa fa-twitter"></i> 
                                   
                         </div>
-                        <div class="col-sm-9">
-                              
+                        <div class="col-sm-9">      
                         </div>
                     </div>
                     <div class="row col1">
