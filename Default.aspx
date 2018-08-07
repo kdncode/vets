@@ -23,8 +23,7 @@
              <a href="products.aspx"><button type="button" class="btn btn-outline-secondary">Shop Now</button></a>
           </div>
         </div>
-      </div>
-       
+      </div>  
     </section>
 
     <section id="testimonial">
