@@ -11,8 +11,6 @@
           <div class="col-md-3 col-sm-6">
             <div class="showcase-left">
               <img src="img/bg.png" alt ="Background image" style="height:700px; width: 1145px;  
- 
-   
     background-position: center;
     background-repeat:  no-repeat;
     background-size: cover;        
