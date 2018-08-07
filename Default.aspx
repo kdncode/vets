@@ -13,8 +13,7 @@
               <img src="img/bg.png" alt ="Background image" style="height:700px; width: 1145px;  
     background-position: center;
     background-repeat:  no-repeat;
-    background-size: cover;        
-">
+    background-size: cover;">
             </div>
           </div>
           <div class="col-md-6 col-sm-6">
