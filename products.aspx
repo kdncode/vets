@@ -24,6 +24,5 @@
         </div>
      </center>
     </ItemTemplate>
-</asp:DataList>
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+</asp:DataList><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 </asp:Content>
