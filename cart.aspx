@@ -9,8 +9,7 @@
         CssClass="Grid" 
         AlternatingRowStyle-CssClass="alt"
         PagerStyle-CssClass="pgr"
-         AutoGenerateColumns="False">
-        
+         AutoGenerateColumns="False">   
 <AlternatingRowStyle CssClass="alt"></AlternatingRowStyle>
         
        <Columns>
