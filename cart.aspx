@@ -15,7 +15,6 @@
            <asp:BoundField DataField="idSP" HeaderText="ID" />
            <asp:TemplateField HeaderText="Product Image">
                <ItemTemplate>
-                  
                    <asp:Image ID="Image1" runat="server" AlternateText="Care Package" Height="84px" Width="89px"  
                        ImageUrl='~/img/cart.jpg' />
        
