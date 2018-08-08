@@ -24,7 +24,6 @@
             </div>
         </div>
      </center>
-
     </ItemTemplate>
 </asp:DataList>
     
