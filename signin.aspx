@@ -18,8 +18,7 @@
             <asp:Button ID="btnSignIn" runat="server" Font-Names="Poppins" Text="Sign in" CssClass="Login_btn" OnClick="btnSignIn_Click"  />
             <br /><br /> <br />
 
-                <asp:Label ID="Hienthi" runat="server"></asp:Label>
-                <br />
+                <asp:Label ID="Hienthi" runat="server"></asp:Label><br />
 
              <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
                  ConnectionString="<%$ ConnectionStrings:TKCConnectionString %>" 
