@@ -1,7 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="donate.aspx.cs" Inherits="donate" %>
 
 <script runat="server">
-
 </script>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
@@ -58,6 +57,5 @@
              <asp:Button ID="DonateButton" runat="server" Font-Names="Poppins" CssClass="btn btn-outline-secondary" OnClick="DonateButton_Click" Text="Donate" />
             </div><br />
 </center>
-  </div>
- <br /><br /><br /><br /><br /><br /> <br /><br /><br /><br /><br /><br /><br />
+  </div><br /><br /><br /><br /><br /><br /> <br /><br /><br /><br /><br /><br /><br />
 </asp:Content>
