@@ -1,5 +1,4 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="donate.aspx.cs" Inherits="donate" %>
-
 <script runat="server">
 </script>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
