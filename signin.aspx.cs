@@ -99,9 +99,7 @@ public partial class signin : System.Web.UI.Page
                 Session["Username"] = UserID;
                 Session["UserEmail"] = txtUsername.Text.Trim();
                 Response.Redirect("Update.aspx");
-            }
-            else
-            {
+            } else {
                 lblMessage.Text = "Incorrect Username or Password";
             }
         }
