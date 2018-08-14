@@ -28,8 +28,7 @@ public partial class signin : System.Web.UI.Page
         }
     }
 
-    protected void btnSignIn_Click(object sender, EventArgs e)
-    {
+    protected void btnSignIn_Click(object sender, EventArgs e) {
         string UserID = "";
         string Password = "";
         /*SqlDataReader MyReader;
@@ -56,13 +55,9 @@ public partial class signin : System.Web.UI.Page
 
         if (txtPassword.Text == "")
             lblMessage.Text = "Please enter your Username & Password";
-        else
-        {
-
-            if (dt.Rows.Count>0)
-            {
-                if (Session["CheckOutButton"] == "yes")
-                {
+        else {
+            if (dt.Rows.Count>0) {
+                if (Session["CheckOutButton"] == "yes") {
                     Session["Username"] = txtUsername.Text;
                     Response.Redirect("MyAccount.aspx");
                 }
