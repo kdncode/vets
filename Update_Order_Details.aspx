@@ -2,7 +2,6 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server"> <br />
-    
 <%--     <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:TKCConnectionString %>"
             SelectCommand="SELECT [Email], [Password], [FirstName], [LastName], [Address], [City], [State], [Zipcode], [Country], [Phone], FROM [SIGNUP] WHERE ([Email] = @Email)"
             UpdateCommand="UPDATE [Orders] SET [Password] = @Password, [FirstName] = @FirstName, [LastName] = @LastName, [Address] = @Address,
