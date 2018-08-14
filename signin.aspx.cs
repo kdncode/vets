@@ -80,9 +80,7 @@ public partial class signin : System.Web.UI.Page
                 Session["UserName"] = UserID;
                 Session["UserEmail"] = txtUsername.Text.Trim();
                 Response.Redirect("MyAccount.aspx");
-            }
-            else
-            {
+            } else {
                 lblMessage.Text = "Incorrect Username or Password";
             }
         }
