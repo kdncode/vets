@@ -13,17 +13,13 @@ public partial class signin : System.Web.UI.Page
 
     protected void Page_Load(object sender, EventArgs e)
     {
-        if (!IsPostBack)
-        {
-            if (Session["Username"] != null)
-            {
+        if (!IsPostBack) {
+            if (Session["Username"] != null) {
                 txtUsername.Visible = false;
                 txtPassword.Visible = false;
                 btnSignIn.Visible = false;
                 Hienthi.Text = "You are on our page";
-            }
-            else
-            {
+            } else {
                 txtUsername.Visible = true;
                 txtPassword.Visible = true;
                 btnSignIn.Visible = true;
