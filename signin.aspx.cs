@@ -74,8 +74,7 @@ public partial class signin : System.Web.UI.Page
         }
     }
 
-    protected void btnUpdate_Click(object sender, EventArgs e)
-    {
+    protected void btnUpdate_Click(object sender, EventArgs e) {
         string UserID = "";
         string Password = "";
         SqlDataReader MyReader;
@@ -86,8 +85,8 @@ public partial class signin : System.Web.UI.Page
         myCommand.Parameters.AddWithValue("@email", txtUsername.Text);
         myConnection.Open();
         MyReader = myCommand.ExecuteReader(CommandBehavior.CloseConnection);
-        while (MyReader.Read())
-        {
+        
+        while (MyReader.Read()) {
             UserID = MyReader.GetString(2).Trim() + " " + MyReader.GetString(3).Trim();
             Password = MyReader.GetString(1).Trim();
         }
