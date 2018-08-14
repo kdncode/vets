@@ -60,9 +60,7 @@ public partial class signin : System.Web.UI.Page
                 if (Session["CheckOutButton"] == "yes") {
                     Session["Username"] = txtUsername.Text;
                     Response.Redirect("MyAccount.aspx");
-                }
-                else
-                {
+                } else {
                     Session["Username"] = txtUsername.Text;
                     Response.Redirect("MyAccount.aspx");
                 }
