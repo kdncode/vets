@@ -75,8 +75,7 @@
                 <br /> 
             <asp:RegularExpressionValidator ID="RegularExpressionValidator5" ControlToValidate="txtPhone1" runat="server" ForeColor="#FF6666"  Font-Names="Poppins" Font-Size="Small" 
                  ErrorMessage="Please enter a valid phone number (Ex. 123-456-7890)" ValidationExpression="((\(\d{3}\) ?)|(\d{3}-))?\d{3}-\d{4}"></asp:RegularExpressionValidator>
-            <br />
-            
+            <br />    
             <asp:Button ID="ButtonUpdateOrderDetails" runat="server" class="btn btn-outline-secondary" OnClick="ButtonUpdateOrderDetails_Click" Text="Update and Continue" />
 
         </center>
