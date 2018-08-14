@@ -94,10 +94,8 @@ public partial class signin : System.Web.UI.Page
         myConnection.Close();
         if (txtPassword.Text == "")
             lblMessage.Text = "Please enter your Username & Password";
-        else
-        {
-            if (txtPassword.Text.Trim() == Password)
-            {
+        else {
+            if (txtPassword.Text.Trim() == Password) {
                 Session["Username"] = UserID;
                 Session["UserEmail"] = txtUsername.Text.Trim();
                 Response.Redirect("Update.aspx");
