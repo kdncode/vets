@@ -16,12 +16,12 @@
        <Columns>
            <asp:BoundField DataField="idSP" HeaderText="ID" />
            <asp:TemplateField HeaderText="Product Image">
-               <ItemTemplate>
-                  
+               <ItemTemplate> 
                    <asp:Image ID="Image1" runat="server" AlternateText="Care Package" Height="64px" Width="69px"  
                        ImageUrl='~/img/cart.jpg' />
                </ItemTemplate>
            </asp:TemplateField>
+           
            <asp:BoundField DataField="TenSP" HeaderText="Product Name" />
            <asp:BoundField DataField="Gia" HeaderText="Price" />
            <asp:TemplateField HeaderText="Quantity">
