@@ -50,12 +50,9 @@ public partial class cart : System.Web.UI.Page
             dt = (DataTable)Session["GioHang"];
         int dong = SPdacotronggiohang(idSP, dt);
         
-        if (dong != -1)
-        {
+        if (dong != -1) {
             dt.Rows[dong]["SoLuong"] = Convert.ToInt32(dt.Rows[dong]["SoLuong"]) + Soluong;
-        }
-        else
-        {
+        } else {
             DataRow dr = dt.NewRow();
             dr["idSP"] = idSP;
             dr["TenSP"] = TenSP;
