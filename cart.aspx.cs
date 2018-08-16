@@ -14,17 +14,15 @@ public partial class cart : System.Web.UI.Page
 
     protected void Page_Load(object sender, EventArgs e)
     {
-        if (!IsPostBack)
-        {
-                if (Request.QueryString["P_ID"] != null)
-            {
-                int idSP = int.Parse(Request.QueryString["P_ID"]);
-                DataTable dt = db.GetTable("Select P_Name, P_Price From Products where P_ID=" + idSP);
-                string TenSP = dt.Rows[0][0].ToString();
-                int Dongia = int.Parse(dt.Rows[0][1].ToString());
-                int Soluong = 1;
-                ThemVaoGioHang(idSP, TenSP, Dongia, Soluong);
-            }
+        if (!IsPostBack) {
+                if (Request.QueryString["P_ID"] != null) {
+                    int idSP = int.Parse(Request.QueryString["P_ID"]);
+                    DataTable dt = db.GetTable("Select P_Name, P_Price From Products where P_ID=" + idSP);
+                    string TenSP = dt.Rows[0][0].ToString();
+                    int Dongia = int.Parse(dt.Rows[0][1].ToString());
+                    int Soluong = 1;
+                    ThemVaoGioHang(idSP, TenSP, Dongia, Soluong);
+                }
             if (Session["GioHang"] == null)
 
             {
