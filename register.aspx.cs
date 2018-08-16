@@ -18,8 +18,7 @@ public partial class register : System.Web.UI.Page
 
     protected void btnRegister_Click(object sender, EventArgs e)
     {
-        if (IsPostBack)
-        {
+        if (IsPostBack) {
             SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["TKCConnectionString"].ConnectionString
                 );
 
