@@ -14,8 +14,7 @@
                     <br /><br />
                     <span class="padding"></span><label>Quantity Available: <%#" "+ Eval("P_Quantity") %></label>
                      <p><%# Eval("P_Description") %></p>
-                     <h3><%#"$"+ Eval("P_Price") %></h3>
-                    <br />
+                     <h3><%#"$"+ Eval("P_Price") %></h3> <br />
                      <asp:Button ID="btnAdd1" runat="server" class="btn btn-outline-secondary" CommandName="GioHang"
                   Text="Add To Cart" />
                 </div>
