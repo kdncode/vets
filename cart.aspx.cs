@@ -39,18 +39,17 @@ public partial class cart : System.Web.UI.Page
     public void ThemVaoGioHang(int idSP, string TenSP, int Dongia, int Soluong)
     {
         DataTable dt;
-        if (Session["GioHang"] == null)
-        {
+        if (Session["GioHang"] == null) {
             dt = new DataTable();
             dt.Columns.Add("idSP");
             dt.Columns.Add("TenSP");
             dt.Columns.Add("Gia");
             dt.Columns.Add("SoLuong");
             dt.Columns.Add("TongTien");
-        }
-        else
+        } else
             dt = (DataTable)Session["GioHang"];
         int dong = SPdacotronggiohang(idSP, dt);
+        
         if (dong != -1)
         {
             dt.Rows[dong]["SoLuong"] = Convert.ToInt32(dt.Rows[dong]["SoLuong"]) + Soluong;
