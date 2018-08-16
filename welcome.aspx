@@ -13,5 +13,5 @@
        <img src="#" alt="Welcome to TKC's Website" style="width:250px;height:250px;">  
     <br /><br /><br />
     </div>
-        </center>
+    </center>
 </asp:Content>
