@@ -75,10 +75,8 @@ public partial class cart : System.Web.UI.Page
         return dong;
     }
 
-    protected void gvCart_RowCommand(object sender, GridViewCommandEventArgs e)
-    {
-        if (e.CommandName == "Xoa")
-        {
+    protected void gvCart_RowCommand(object sender, GridViewCommandEventArgs e) {
+        if (e.CommandName == "Xoa") {
             int chiso = int.Parse(e.CommandArgument.ToString());
             DataTable dt = (DataTable)Session["GioHang"];
             dt.Rows.RemoveAt(chiso);
