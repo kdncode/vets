@@ -23,11 +23,11 @@ public partial class cart : System.Web.UI.Page
                     int Soluong = 1;
                     ThemVaoGioHang(idSP, TenSP, Dongia, Soluong);
                 }
-            if (Session["GioHang"] == null)
-
-            {
+            
+            if (Session["GioHang"] == null) {
                 Response.Redirect("EmptyCart.aspx");
             }
+            
             tbGioHang = (DataTable)Session["GioHang"];
             string strnumber = tbGioHang.Compute("Sum(TongTien)", "").ToString();
             lbTongTien.Text = strnumber;
