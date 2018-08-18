@@ -11,15 +11,13 @@ public partial class MasterPage : System.Web.UI.MasterPage {
         
         if (!IsPostBack) {
             
-            if (Session["Username"] == null) {
-                
+            if (Session["Username"] == null) { 
                 signinButton.Visible = true;
                 registerButton.Visible = true;
                 MyAccountButton1.Visible = false;
                 logoutButt.Visible = false;
-            } 
-            else
-            {
+                
+            }  else {
                 signinButton.Visible = false;
                 registerButton.Visible = false;
                 MyAccountButton1.Visible = true;
