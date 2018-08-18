@@ -35,8 +35,7 @@ public partial class cart : System.Web.UI.Page {
         }
     }
 
-    public void ThemVaoGioHang(int idSP, string TenSP, int Dongia, int Soluong)
-    {
+    public void ThemVaoGioHang(int idSP, string TenSP, int Dongia, int Soluong) {
         DataTable dt;
         if (Session["GioHang"] == null) {
             dt = new DataTable();
@@ -84,8 +83,7 @@ public partial class cart : System.Web.UI.Page {
         }
     }
 
-    protected void Button4_Click(object sender, EventArgs e)
-    {
+    protected void Button4_Click(object sender, EventArgs e) {
         Session["GioHang"] = null;
         Response.Redirect("cart.aspx");
     }
