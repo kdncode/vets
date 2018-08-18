@@ -22,8 +22,7 @@ public partial class MyAccount : System.Web.UI.Page {
         Response.Redirect("Update.aspx");
     }
 
-    protected void btnLogOut_Click(object sender, EventArgs e)
-    {    
+    protected void btnLogOut_Click(object sender, EventArgs e) {    
         Response.Redirect("products.aspx");
     }
 
