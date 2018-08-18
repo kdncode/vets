@@ -106,20 +106,15 @@ public partial class cart : System.Web.UI.Page {
         Response.Redirect("cart.aspx");
     }
 
-    protected void Button1_Click(object sender, EventArgs e)
-    {
+    protected void Button1_Click(object sender, EventArgs e) {
         Response.Redirect("~/products.aspx");
     }
 
-    protected void Button2_Click(object sender, EventArgs e)
-    {
+    protected void Button2_Click(object sender, EventArgs e) {
 
-        if (Session["Username"] == null)
-        {
+        if (Session["Username"] == null) {
             Response.Redirect("signin.aspx");
-        }
-        else
-        {
+        } else {
             Response.Redirect("Update_Order_Details.aspx");
         }
     }
