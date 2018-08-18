@@ -17,7 +17,7 @@ public partial class MasterPage : System.Web.UI.MasterPage {
                 MyAccountButton1.Visible = false;
                 logoutButt.Visible = false;
                 
-            }  else {
+            } else {
                 signinButton.Visible = false;
                 registerButton.Visible = false;
                 MyAccountButton1.Visible = true;
@@ -26,8 +26,7 @@ public partial class MasterPage : System.Web.UI.MasterPage {
         }
     }
 
-    protected void logoutButt_ServerClick(object sender, EventArgs e)
-    {
+    protected void logoutButt_ServerClick(object sender, EventArgs e) {
         Session["Username"] = null;
         Response.Redirect("signin.aspx");
     }
