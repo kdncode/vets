@@ -9,10 +9,10 @@ public partial class MasterPage : System.Web.UI.MasterPage {
     
     protected void Page_Load(object sender, EventArgs e) {
         
-        if (!IsPostBack)
-        {
-            if (Session["Username"] == null)
-            {
+        if (!IsPostBack) {
+            
+            if (Session["Username"] == null) {
+                
                 signinButton.Visible = true;
                 registerButton.Visible = true;
                 MyAccountButton1.Visible = false;
