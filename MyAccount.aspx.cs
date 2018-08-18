@@ -12,16 +12,13 @@ public partial class MyAccount : System.Web.UI.Page {
             lblMyAccount.Text = "Hello " + Session["Username"].ToString() + "!";
             lblMyAccount.Visible = true;
             //btnLogOut.Visible = true;
-        }
-        else
-        {
+        } else {
             btnLogOut.Visible = false;
             Response.Redirect("signin.aspx");
         }
     }
 
-    protected void btnUpdate1_Click(object sender, EventArgs e)
-    {
+    protected void btnUpdate1_Click(object sender, EventArgs e) {
         Response.Redirect("Update.aspx");
     }
 
