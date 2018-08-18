@@ -26,9 +26,7 @@ public partial class MyAccount : System.Web.UI.Page {
         Response.Redirect("products.aspx");
     }
 
-    protected void ViewCart_Click(object sender, EventArgs e)
-    {
+    protected void ViewCart_Click(object sender, EventArgs e) {
         Response.Redirect("cart.aspx");
     }
-
 }
