@@ -5,12 +5,10 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-public partial class MyAccount : System.Web.UI.Page
-{
-    protected void Page_Load(object sender, EventArgs e)
-    {
-        if (Session["Username"] != null)
-        {
+public partial class MyAccount : System.Web.UI.Page {
+   
+    protected void Page_Load(object sender, EventArgs e) {
+        if (Session["Username"] != null) {
             lblMyAccount.Text = "Hello " + Session["Username"].ToString() + "!";
             lblMyAccount.Visible = true;
             //btnLogOut.Visible = true;
