@@ -7,13 +7,12 @@ using System.Web.UI.WebControls;
 using System.Data;
 using System.Data.SqlClient;
 
-public partial class cart : System.Web.UI.Page
-{
+public partial class cart : System.Web.UI.Page {
+    
     static DataTable tbGioHang = new DataTable();
     ConnectionSQL db = new ConnectionSQL();
 
-    protected void Page_Load(object sender, EventArgs e)
-    {
+    protected void Page_Load(object sender, EventArgs e) {
         if (!IsPostBack) {
                 if (Request.QueryString["P_ID"] != null) {
                     int idSP = int.Parse(Request.QueryString["P_ID"]);
