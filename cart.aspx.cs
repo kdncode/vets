@@ -88,15 +88,11 @@ public partial class cart : System.Web.UI.Page {
         Response.Redirect("cart.aspx");
     }
 
-    protected void Button3_Click(object sender, EventArgs e)
-    {
+    protected void Button3_Click(object sender, EventArgs e) {
         DataTable dt = (DataTable)Session["GioHang"];
-        foreach (GridViewRow r in gvCart.Rows)
-        {
-            foreach (DataRow dr in dt.Rows)
-            {
-                if (int.Parse(gvCart.DataKeys[r.DataItemIndex].Value.ToString()) == int.Parse(dr["idSP"].ToString()))
-                {
+        foreach (GridViewRow r in gvCart.Rows) {
+            foreach (DataRow dr in dt.Rows) {
+                if (int.Parse(gvCart.DataKeys[r.DataItemIndex].Value.ToString()) == int.Parse(dr["idSP"].ToString())) {
                     TextBox t = ((TextBox)r.Cells[3].FindControl("txtSoLuong"));
                     int c = int.Parse(t.Text);
                     if (c <= 0)
