@@ -7,8 +7,7 @@ using System.Web.UI.WebControls;
 using System.Data;
 using System.Data.SqlClient;
 
-public partial class products : System.Web.UI.Page
-{
+public partial class products : System.Web.UI.Page {
     ConnectionSQL db = new ConnectionSQL();
     static DataTable tbGioHang = new DataTable();
 
