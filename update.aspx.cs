@@ -15,6 +15,7 @@ public partial class update : System.Web.UI.Page {
         if (IsPostBack) {
             return;
         }
+        
         con.Open();
         SqlCommand cmd = con.CreateCommand();
         cmd.CommandType = CommandType.Text;
