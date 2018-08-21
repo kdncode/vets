@@ -8,8 +8,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Configuration;
 
-public partial class register : System.Web.UI.Page
-{
+public partial class register : System.Web.UI.Page {
 
     protected void Page_Load(object sender, EventArgs e)
     {
