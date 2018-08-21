@@ -38,8 +38,7 @@ public partial class update : System.Web.UI.Page {
         }
     }
 
-    protected void btnSave_Click(object sender, EventArgs e)
-    {
+    protected void btnSave_Click(object sender, EventArgs e) {
         con.Open();
         SqlCommand cmd = con.CreateCommand();
         cmd.CommandType = CommandType.Text;
