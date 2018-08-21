@@ -23,8 +23,8 @@ public partial class update : System.Web.UI.Page {
         DataTable dt = new DataTable();
         SqlDataAdapter da = new SqlDataAdapter(cmd);
         da.Fill(dt);
-        foreach (DataRow dr in dt.Rows)
-        {
+        
+        foreach (DataRow dr in dt.Rows) {
             txtFName.Text = dr["FirstName"].ToString();
             txtLName.Text = dr["LastName"].ToString();
             txtEmail.Text = dr["Email"].ToString();
