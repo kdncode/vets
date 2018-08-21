@@ -10,8 +10,7 @@ using System.Data.SqlClient;
 
 public partial class signin : System.Web.UI.Page {
 
-    protected void Page_Load(object sender, EventArgs e)
-    {
+    protected void Page_Load(object sender, EventArgs e) {
         if (!IsPostBack) {
             if (Session["Username"] != null) {
                 txtUsername.Visible = false;
