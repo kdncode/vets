@@ -24,8 +24,8 @@ public partial class Update_Order_Details : System.Web.UI.Page {
         DataTable dt = new DataTable();
         SqlDataAdapter da = new SqlDataAdapter(cmd);
         da.Fill(dt);
-        foreach(DataRow dr in dt.Rows)
-        {
+        
+        foreach(DataRow dr in dt.Rows) {
             txtFName1.Text = dr["FirstName"].ToString();
             txtLName1.Text = dr["LastName"].ToString();
             txtAddress1.Text = dr["Address"].ToString();
