@@ -29,8 +29,7 @@ public partial class products : System.Web.UI.Page {
         }
     }
 
-    void ShowProduct()
-    {
+    void ShowProduct() {
         DataList1.DataSource = db.GetTable("SELECT * FROM products");
         DataList1.DataBind();
     }
