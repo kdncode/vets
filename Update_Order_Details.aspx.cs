@@ -38,8 +38,7 @@ public partial class Update_Order_Details : System.Web.UI.Page {
         }
     }
 
-    protected void ButtonUpdateOrderDetails_Click(object sender, EventArgs e)
-    {
+    protected void ButtonUpdateOrderDetails_Click(object sender, EventArgs e) {
         con.Open();
         SqlCommand cmd = con.CreateCommand();
         cmd.CommandType = CommandType.Text;
