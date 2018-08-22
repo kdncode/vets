@@ -11,8 +11,7 @@ public partial class products : System.Web.UI.Page {
     ConnectionSQL db = new ConnectionSQL();
     static DataTable tbGioHang = new DataTable();
 
-    protected void Page_Load(object sender, EventArgs e)
-    {
+    protected void Page_Load(object sender, EventArgs e) {
         if (!IsPostBack)
         {   //Trong gio hang truyen vao ko co p_size ne thi ben kia dau co p_size
             if (Session["GioHang"] != null)
