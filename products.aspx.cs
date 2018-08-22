@@ -14,8 +14,7 @@ public partial class products : System.Web.UI.Page {
     protected void Page_Load(object sender, EventArgs e) {
         if (!IsPostBack) {   
             //Trong gio hang truyen vao ko co p_size ne thi ben kia dau co p_size
-            if (Session["GioHang"] != null)
-            {
+            if (Session["GioHang"] != null) {
                 tbGioHang = Session["GioHang"] as DataTable;
             }
             else
