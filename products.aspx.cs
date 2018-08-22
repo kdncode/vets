@@ -16,9 +16,7 @@ public partial class products : System.Web.UI.Page {
             //Trong gio hang truyen vao ko co p_size ne thi ben kia dau co p_size
             if (Session["GioHang"] != null) {
                 tbGioHang = Session["GioHang"] as DataTable;
-            }
-            else
-            {
+            } else {
                 tbGioHang.Rows.Clear();
                 tbGioHang.Columns.Clear();
                 tbGioHang.Columns.Add("idSP", typeof(int));
