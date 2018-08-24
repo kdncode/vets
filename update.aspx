@@ -75,7 +75,7 @@
     </center> 
               <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
-        <script type="text/javascript">
+    <script type="text/javascript">
         $(' .phone1').mask('(999) 999-9999');
     </script>
 
