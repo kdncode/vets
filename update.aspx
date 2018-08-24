@@ -42,9 +42,7 @@
                 <asp:Parameter Name="Country"  />
                 <asp:Parameter Name="Phone"  />
             </InsertParameters>
-        </asp:SqlDataSource>
-
-       
+        </asp:SqlDataSource>  
     
             <asp:TextBox ID="txtFName" runat="server" Font-Names="Poppins" placeholder="First name" CssClass="Register_un"></asp:TextBox>
            <br />
