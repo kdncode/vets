@@ -4,7 +4,6 @@
     
 <center>
         <div class ="Login">
-     
         <h2 style="color: rebeccapurple";>Update Your Info</h2>
 
      <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:TKCConnectionString %>"
