@@ -11,7 +11,7 @@ $(function() {
 });
 
 $(function() {
-	$(".btn-signup").click(function() {
+  $(".btn-signup").click(function() {
   $(".nav").toggleClass("nav-up");
   $(".form-signup-left").toggleClass("form-signup-down");
   $(".success").toggleClass("success-left"); 
