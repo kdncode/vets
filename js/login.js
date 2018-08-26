@@ -28,5 +28,5 @@ $(function() {
   $(".profile-photo").toggleClass("profile-photo-down");
   $(".btn-goback").toggleClass("btn-goback-up");
   $(".forgot").toggleClass("forgot-fade");
-	});
+  });
 });
