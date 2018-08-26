@@ -20,7 +20,7 @@ $(function() {
 });
 
 $(function() {
-	$(".btn-signin").click(function() {
+  $(".btn-signin").click(function() {
   $(".btn-animate").toggleClass("btn-animate-grow");
   $(".welcome").toggleClass("welcome-left");
   $(".cover-photo").toggleClass("cover-photo-down");
