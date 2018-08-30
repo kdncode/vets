@@ -78,7 +78,7 @@ crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <script>
-      window.sr = ScrollReveal();
+indow.sr = ScrollReveal();
 sr.reveal('.navbar', {
     duration: 2000,
     origin:'bottom'
