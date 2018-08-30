@@ -69,7 +69,6 @@ public partial class products : System.Web.UI.Page {
                 Response.Write("<script>alert('The item has been successfully added to cart')</script>");          
         }
 }
-
     protected void ButtonViewCart_Click(object sender, EventArgs e) {
         Response.Redirect("cart.aspx");
     }
