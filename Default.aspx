@@ -41,8 +41,7 @@
           <div class="col-md-6 col-sm-6">
             <div class="info-right">
               <h1>We help vets & their families</h1>
-                <h3>Save A Vet. Make A Donation.</h3>
-                <br />
+                <h3>Save A Vet. Make A Donation.</h3><br />
               <a href="Donate.aspx"><button type="button" class="btn btn-outline-secondary">Donate Now</button></a>
             </div>
           </div>
