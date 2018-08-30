@@ -16,8 +16,7 @@
             <div class="showcase-right">
               <h1>No one left behind!</h1>
                 <p>We need your help to keep our Lifeline for Veterans operating. Please support or contribute what you can.</p>
-            </div>
-            <br>
+            </div><br>
              <a href="products.aspx"><button type="button" class="btn btn-outline-secondary">Shop Now</button></a>
           </div>
         </div>
