@@ -48,6 +48,7 @@
         </div>
       </div>
     </section><hr>
+    
     <section id="info2">
       <div class="container">
         <div class="row">
