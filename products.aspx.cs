@@ -70,8 +70,7 @@ public partial class products : System.Web.UI.Page {
         }
 }
 
-    protected void ButtonViewCart_Click(object sender, EventArgs e)
-    {
+    protected void ButtonViewCart_Click(object sender, EventArgs e) {
         Response.Redirect("cart.aspx");
     }
 }
