@@ -1,6 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="EmptyCart.aspx.cs" Inherits="EmptyCart" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-</asp:Content>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server"></asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server"> 
     <body>
         <center><h1 style="color: rebeccapurple";>Your cart is empty</h1></center>
