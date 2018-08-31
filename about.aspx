@@ -217,7 +217,7 @@
     <script>
          $().ready(function(){
             $('[rel="tooltip"]').tooltip();
-        });
+         });
 
         function rotateCard(btn){
             var $card = $(btn).closest('.card-container');
