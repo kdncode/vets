@@ -68,10 +68,10 @@
       </div>
     </section>
     
-          </div>
-        </div>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
 
 <script
 src="https://code.jquery.com/jquery-3.2.1.js"
