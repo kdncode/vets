@@ -19,8 +19,7 @@
             <asp:TextBox ID="txtAddress" runat="server"  placeholder="Address" Font-Names="Poppins"  CssClass="Register_un"></asp:TextBox> 
             <asp:RequiredFieldValidator ID="rfvAddress" runat="server" ErrorMessage="Please enter your address" ControlToValidate="txtAddress" ForeColor="#FF6666"  Font-Names="Poppins" Font-Size="Small" ></asp:RequiredFieldValidator><br />
             <asp:TextBox ID="txtCity" runat="server"  placeholder="City" Font-Names="Poppins"  CssClass="Register_un"></asp:TextBox>
-            <asp:RequiredFieldValidator ID="rfvCity" runat="server" ErrorMessage="Please enter your city" ControlToValidate="txtCity" ForeColor="#FF6666"  Font-Names="Poppins" Font-Size="Small" ></asp:RequiredFieldValidator>
-            <br />
+            <asp:RequiredFieldValidator ID="rfvCity" runat="server" ErrorMessage="Please enter your city" ControlToValidate="txtCity" ForeColor="#FF6666"  Font-Names="Poppins" Font-Size="Small" ></asp:RequiredFieldValidator><br />
 
             <asp:TextBox ID="txtState" runat="server"  placeholder="State" Font-Names="Poppins"  CssClass="Register_un"></asp:TextBox>     
             <asp:RequiredFieldValidator ID="rfvState" runat="server" ErrorMessage="Please enter your state" ControlToValidate="txtState" ForeColor="#FF6666"  Font-Names="Poppins" Font-Size="Small" ></asp:RequiredFieldValidator>
