@@ -20,10 +20,10 @@
             <asp:TextBox ID="txtCity" runat="server" placeholder="City" Font-Names="Poppins"  CssClass="Register_un"></asp:TextBox>
             <asp:RequiredFieldValidator ID="rfvCity" runat="server" ErrorMessage="Please enter your city" ControlToValidate="txtCity" ForeColor="#FF6666"  Font-Names="Poppins" Font-Size="Small" ></asp:RequiredFieldValidator><br />
 
-            <asp:TextBox ID="txtState" runat="server"  placeholder="State" Font-Names="Poppins"  CssClass="Register_un"></asp:TextBox>     
+            <asp:TextBox ID="txtState" runat="server" placeholder="State" Font-Names="Poppins"  CssClass="Register_un"></asp:TextBox>     
             <asp:RequiredFieldValidator ID="rfvState" runat="server" ErrorMessage="Please enter your state" ControlToValidate="txtState" ForeColor="#FF6666"  Font-Names="Poppins" Font-Size="Small" ></asp:RequiredFieldValidator><br />
  
-            <asp:TextBox ID="txtZipcode" runat="server"  placeholder="Zipcode" Font-Names="Poppins"  CssClass="Register_un"></asp:TextBox>        
+            <asp:TextBox ID="txtZipcode" runat="server" placeholder="Zipcode" Font-Names="Poppins"  CssClass="Register_un"></asp:TextBox>        
             <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ErrorMessage="Please enter a valid zipcode" ForeColor="#FF6666"  Font-Names="Poppins" Font-Size="Small"  ControlToValidate="txtZipcode" ValidationExpression="\d{5}(-\d{4})?"></asp:RegularExpressionValidator><br />
             <asp:TextBox ID="txtCountry" runat="server"  placeholder="Country" Font-Names="Poppins"  CssClass="Register_un"></asp:TextBox>   
              <asp:RequiredFieldValidator ID="rfvCountry" runat="server" ErrorMessage="Please enter your country" ControlToValidate="txtCountry" ForeColor="#FF6666"  Font-Names="Poppins" Font-Size="Small" ></asp:RequiredFieldValidator><br />
