@@ -57,16 +57,16 @@
         SelectCommand="SELECT Email, Password, FirstName, LastName, Address, City, State, Zipcode, Country, Phone FROM [SIGNUP]">
                
          <InsertParameters>
-              <asp:Parameter Name="Email" />
-              <asp:Parameter Name="Password" />
-                        <asp:Parameter Name="FirstName" />
-                        <asp:Parameter Name="LastName" />
-                        <asp:Parameter Name="Address" />
-                        <asp:Parameter Name="City" />
-                        <asp:Parameter Name="State" />
-                        <asp:Parameter Name="Zipcode" />
-                        <asp:Parameter Name="Country" />
-                        <asp:Parameter Name="Phone" />
+                <asp:Parameter Name="Email" />
+                <asp:Parameter Name="Password" />
+                <asp:Parameter Name="FirstName" />
+                <asp:Parameter Name="LastName" />
+                <asp:Parameter Name="Address" />
+                <asp:Parameter Name="City" />
+                <asp:Parameter Name="State" />
+                <asp:Parameter Name="Zipcode" />
+                <asp:Parameter Name="Country" />
+                <asp:Parameter Name="Phone" />
          </InsertParameters>
 
     </asp:SqlDataSource>
