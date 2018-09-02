@@ -12,8 +12,7 @@
             <asp:TextBox ID="txtEmail" runat="server" Font-Names="Poppins" placeholder="Email" CssClass="Register_un" TextMode="Email" ></asp:TextBox>
             <asp:RegularExpressionValidator ID="revEmail" Font-Names="Poppins" runat="server" ControlToValidate="txtEmail" Font-Size="Small" ErrorMessage="You must enter a valid email" ForeColor="#FF6666" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" Font-Bold="False"></asp:RegularExpressionValidator><br />
             <asp:TextBox ID="txtPassword" runat="server" Font-Names="Poppins" placeholder="Password" CssClass="Register_un" TextMode="Password"></asp:TextBox>
-            <asp:RequiredFieldValidator ID="rfvPassword" runat="server" ErrorMessage="Please choose a password" ControlToValidate="txtPassword" ForeColor="#FF6666" Font-Names="Poppins" Font-Size="Small" Font-Bold="False"></asp:RequiredFieldValidator>
-            <br />
+            <asp:RequiredFieldValidator ID="rfvPassword" runat="server" ErrorMessage="Please choose a password" ControlToValidate="txtPassword" ForeColor="#FF6666" Font-Names="Poppins" Font-Size="Small" Font-Bold="False"></asp:RequiredFieldValidator><br />
             <asp:TextBox ID="txtPass2" runat="server" Font-Names="Poppins" placeholder="Confirm Password" CssClass="Register_un"  TextMode="Password"></asp:TextBox>
             <asp:CompareValidator ID="cvPassword" runat="server" ErrorMessage="Both passwords must be the same" ControlToCompare="txtPassword" ControlToValidate="txtPass2" Font-Names="Poppins" Font-Size="Small" ForeColor="#FF6666" Font-Bold="False"></asp:CompareValidator>
             <br />
