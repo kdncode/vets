@@ -27,8 +27,7 @@
             <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ErrorMessage="Please enter a valid zipcode" ForeColor="#FF6666"  Font-Names="Poppins" Font-Size="Small"  ControlToValidate="txtZipcode" ValidationExpression="\d{5}(-\d{4})?"></asp:RegularExpressionValidator>
              <br />
             <asp:TextBox ID="txtCountry" runat="server"  placeholder="Country" Font-Names="Poppins"  CssClass="Register_un"></asp:TextBox>   
-             <asp:RequiredFieldValidator ID="rfvCountry" runat="server" ErrorMessage="Please enter your country" ControlToValidate="txtCountry" ForeColor="#FF6666"  Font-Names="Poppins" Font-Size="Small" ></asp:RequiredFieldValidator>
-            <br />
+             <asp:RequiredFieldValidator ID="rfvCountry" runat="server" ErrorMessage="Please enter your country" ControlToValidate="txtCountry" ForeColor="#FF6666"  Font-Names="Poppins" Font-Size="Small" ></asp:RequiredFieldValidator><br />
 
             <asp:TextBox ID="txtPhone" runat="server"  placeholder="Phone Number" Font-Names="Poppins"  CssClass="Register_un"></asp:TextBox>   <br /> 
             <asp:RegularExpressionValidator ID="RegularExpressionValidator5" ControlToValidate="txtPhone" runat="server" ForeColor="#FF6666"  Font-Names="Poppins" Font-Size="Small" 
