@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server"></asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server"><br />
     
-    <asp:DataList ID="DataList1" runat="server" RepeatColumns="3" DataKeyField="P_ID" OnItemCommand="DataList1_ItemCommand">
+ <asp:DataList ID="DataList1" runat="server" RepeatColumns="3" DataKeyField="P_ID" OnItemCommand="DataList1_ItemCommand">
     <ItemTemplate>
        <center>
         <div class ="container-fluid">
