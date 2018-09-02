@@ -15,9 +15,9 @@
             <asp:TextBox ID="txtPass2" runat="server" Font-Names="Poppins" placeholder="Confirm Password" CssClass="Register_un"  TextMode="Password"></asp:TextBox>
             <asp:CompareValidator ID="cvPassword" runat="server" ErrorMessage="Both passwords must be the same" ControlToCompare="txtPassword" ControlToValidate="txtPass2" Font-Names="Poppins" Font-Size="Small" ForeColor="#FF6666" Font-Bold="False"></asp:CompareValidator><br />
 
-            <asp:TextBox ID="txtAddress" runat="server"  placeholder="Address" Font-Names="Poppins"  CssClass="Register_un"></asp:TextBox> 
+            <asp:TextBox ID="txtAddress" runat="server" placeholder="Address" Font-Names="Poppins"  CssClass="Register_un"></asp:TextBox> 
             <asp:RequiredFieldValidator ID="rfvAddress" runat="server" ErrorMessage="Please enter your address" ControlToValidate="txtAddress" ForeColor="#FF6666"  Font-Names="Poppins" Font-Size="Small" ></asp:RequiredFieldValidator><br />
-            <asp:TextBox ID="txtCity" runat="server"  placeholder="City" Font-Names="Poppins"  CssClass="Register_un"></asp:TextBox>
+            <asp:TextBox ID="txtCity" runat="server" placeholder="City" Font-Names="Poppins"  CssClass="Register_un"></asp:TextBox>
             <asp:RequiredFieldValidator ID="rfvCity" runat="server" ErrorMessage="Please enter your city" ControlToValidate="txtCity" ForeColor="#FF6666"  Font-Names="Poppins" Font-Size="Small" ></asp:RequiredFieldValidator><br />
 
             <asp:TextBox ID="txtState" runat="server"  placeholder="State" Font-Names="Poppins"  CssClass="Register_un"></asp:TextBox>     
