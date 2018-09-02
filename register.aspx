@@ -10,8 +10,7 @@
             <asp:TextBox ID="txtLName" runat="server" Font-Names="Poppins" placeholder="Last name" CssClass="Register_un" ></asp:TextBox>
             <asp:RequiredFieldValidator ID="rfvLName" runat="server" ErrorMessage="Please enter your Last Name" ControlToValidate="txtLName" ForeColor="#FF6666" Font-Names="Poppins" Font-Size="Small" Font-Bold="False"></asp:RequiredFieldValidator><br />
             <asp:TextBox ID="txtEmail" runat="server" Font-Names="Poppins" placeholder="Email" CssClass="Register_un" TextMode="Email" ></asp:TextBox>
-           <asp:RegularExpressionValidator ID="revEmail" Font-Names="Poppins" runat="server" ControlToValidate="txtEmail" Font-Size="Small" ErrorMessage="You must enter a valid email" ForeColor="#FF6666" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" Font-Bold="False"></asp:RegularExpressionValidator>
-            <br />
+           <asp:RegularExpressionValidator ID="revEmail" Font-Names="Poppins" runat="server" ControlToValidate="txtEmail" Font-Size="Small" ErrorMessage="You must enter a valid email" ForeColor="#FF6666" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" Font-Bold="False"></asp:RegularExpressionValidator><br />
            <asp:TextBox ID="txtPassword" runat="server" Font-Names="Poppins" placeholder="Password" CssClass="Register_un" TextMode="Password"></asp:TextBox>
              <asp:RequiredFieldValidator ID="rfvPassword" runat="server" ErrorMessage="Please choose a password" ControlToValidate="txtPassword" ForeColor="#FF6666" Font-Names="Poppins" Font-Size="Small" Font-Bold="False"></asp:RequiredFieldValidator>
             <br />
