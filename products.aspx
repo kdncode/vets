@@ -8,8 +8,7 @@
         <div class ="container-fluid">
             <div class="row">
                 <div class="col-sm-8">
-                   <h2 style="color: rebeccapurple;"><%#Eval("P_Name") %></h2>
-                    <br />
+                   <h2 style="color: rebeccapurple;"><%#Eval("P_Name") %></h2><br />
                     <img src="img/<%# Eval("P_Size")%>.jpg" alt="Care Package" style="height:200px; width: 200px; class="img-responsive" />
                     <br /><br />
                     <span class="padding"></span><label>Quantity Available: <%#" "+ Eval("P_Quantity") %></label>
