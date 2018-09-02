@@ -4,7 +4,6 @@
 <center>
         <div class ="Login">
             <center><h1> Register </h1></center>
-
             <asp:TextBox ID="txtFName" runat="server" Font-Names="Poppins" placeholder="First name" CssClass="Register_un"></asp:TextBox>
             <asp:RequiredFieldValidator ID="rfvFName" runat="server" ErrorMessage="Please enter your First Name" ControlToValidate="txtFName" ForeColor="#FF6666"  Font-Names="Poppins" Font-Size="Small" Font-Bold="False"></asp:RequiredFieldValidator><br />
             <asp:TextBox ID="txtLName" runat="server" Font-Names="Poppins" placeholder="Last name" CssClass="Register_un" ></asp:TextBox>
