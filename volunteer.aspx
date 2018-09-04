@@ -2,13 +2,12 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server"></asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server"><br /><br />    
 <center>
-        <div class="AboutTKC">
+    <div class="AboutTKC">
             <h1>Sign Up For Volunteer</h1>
             <br />
             <p>TKC brings much needed health care programs and services to thousands of Veterans. 
             Volunteer contributions supplement our workforce, improve the workplace atmosphere, and make hospital stays for Veterans more enjoyable.</p>
-    </div>
-        <br />
+    </div><br />
              <div class="contact-us">
        <div class="container">
           <div class="contact-form">
