@@ -6,7 +6,7 @@
        <p> 
           <asp:Label ID="lblWelcome" runat="server" Text="Label" Font-Bold="True" Font-Size="X-Large" 
           ForeColor="red">Welcome to my website.</asp:Label>
-       </p> <br />
+       </p><br />
        <img src="#" alt="Welcome to TKC's Website" style="width:250px;height:250px;">  <br /><br /><br />
     </div>
 </center>
