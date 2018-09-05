@@ -13,7 +13,7 @@
           <div class="contact-form">
            <div class="row">
                <div class="col-sm-7">                  
-                    <form id="ajax-contact"  method="post" action="contact-form-mail.php" role="form">
+                    <form id="ajax-contact" method="post" action="contact-form-mail.php" role="form">
                         <div class="messages" id="form-messages"></div>
                         <div class="controls">
                             <div class="row">
