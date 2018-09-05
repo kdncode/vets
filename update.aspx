@@ -66,7 +66,6 @@
             <asp:TextBox ID="txtCountry" runat="server"  placeholder="Country" Font-Names="Poppins"  CssClass="Register_un"></asp:TextBox>   
              <br />
             <asp:TextBox ID="txtPhone" runat="server"  placeholder="Phone Number" Font-Names="Poppins"  CssClass="Register_un"></asp:TextBox>   
-            
             <br /><br /><br /><br />
             <asp:Button ID="btnSave" runat="server" class="btn btn-outline-secondary" OnClick="btnSave_Click" Text="Save" />
   </div>
