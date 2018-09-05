@@ -44,8 +44,7 @@
                                     <div class="form-group">
                                         <label for="form_phone"></label>
                                         <input id="form_phone" type="tel" name="phone"  class="form-control" placeholder="Phone Number" required oninvalid="setCustomValidity('Plz enter your correct phone number ')"
-    onchange="try{setCustomValidity('')}catch(e){}">
-                                        
+    onchange="try{setCustomValidity('')}catch(e){}">   
                                     </div>
                                 </div>
                             </div>
