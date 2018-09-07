@@ -80,8 +80,7 @@
       </div>
     </nav>
     <div>
-      <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
-        
+      <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">  
       </asp:ContentPlaceHolder>
      </div>
    
