@@ -84,8 +84,8 @@
       </asp:ContentPlaceHolder>
      </div>
    
-         </form><br />
-        </header>
+    </form><br />
+   </header>
 
     <footer>
         <p class="text-center">Khoa Nguyen &copy; 2017</p>
