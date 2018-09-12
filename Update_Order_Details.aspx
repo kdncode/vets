@@ -45,8 +45,7 @@
         <h2>Ship to</h2>
         <center> 
             <asp:TextBox ID="txtFName1" runat="server" Font-Names="Poppins" placeholder="First name" CssClass="Register_un"></asp:TextBox>
-            <asp:RequiredFieldValidator ID="rfvFName" runat="server"  ErrorMessage="Please enter your First Name" ControlToValidate="txtFName1" ForeColor="#FF6666"  Font-Names="Poppins" Font-Size="Small" Font-Bold="False"></asp:RequiredFieldValidator>
-            <br />
+            <asp:RequiredFieldValidator ID="rfvFName" runat="server"  ErrorMessage="Please enter your First Name" ControlToValidate="txtFName1" ForeColor="#FF6666"  Font-Names="Poppins" Font-Size="Small" Font-Bold="False"></asp:RequiredFieldValidator><br />
             <asp:TextBox ID="txtLName1" runat="server" Font-Names="Poppins" placeholder="Last name" CssClass="Register_un" ></asp:TextBox>
             <asp:RequiredFieldValidator ID="rfvLName" runat="server" ErrorMessage="Please enter your Last Name" ControlToValidate="txtLName1" ForeColor="#FF6666" Font-Names="Poppins" Font-Size="Small" Font-Bold="False"></asp:RequiredFieldValidator><br />
             <%-- <asp:TextBox ID="txtEmail1" runat="server" Font-Names="Poppins" placeholder="Email" CssClass="Register_un" TextMode="Email" ></asp:TextBox>
