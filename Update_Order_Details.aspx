@@ -67,9 +67,7 @@
 <br />
             <asp:TextBox ID="txtCountry1" runat="server"  placeholder="Country" Font-Names="Poppins"  CssClass="Register_un"></asp:TextBox>   
              <asp:RequiredFieldValidator ID="rfvCountry" runat="server" ErrorMessage="Please enter your country" ControlToValidate="txtCountry1" ForeColor="#FF6666"  Font-Names="Poppins" Font-Size="Small" ></asp:RequiredFieldValidator>      <br />
-            <asp:TextBox ID="txtPhone1" runat="server"  placeholder="Phone Number" Font-Names="Poppins"  CssClass="Register_un"></asp:TextBox>   
-            
-                <br /> 
+            <asp:TextBox ID="txtPhone1" runat="server"  placeholder="Phone Number" Font-Names="Poppins"  CssClass="Register_un"></asp:TextBox>   <br /> 
             <asp:RegularExpressionValidator ID="RegularExpressionValidator5" ControlToValidate="txtPhone1" runat="server" ForeColor="#FF6666"  Font-Names="Poppins" Font-Size="Small" 
                  ErrorMessage="Please enter a valid phone number (Ex. 123-456-7890)" ValidationExpression="((\(\d{3}\) ?)|(\d{3}-))?\d{3}-\d{4}"></asp:RegularExpressionValidator>
             <br />    
