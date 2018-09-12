@@ -11,8 +11,7 @@ public partial class ThankYou : System.Web.UI.Page
 
     }
 
-    protected void btnKeepShopping_Click(object sender, EventArgs e)
-    {
+    protected void btnKeepShopping_Click(object sender, EventArgs e) {
         Response.Redirect("products.aspx");
     }
 }
