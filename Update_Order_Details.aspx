@@ -67,7 +67,7 @@
             <asp:Button ID="ButtonUpdateOrderDetails" runat="server" class="btn btn-outline-secondary" OnClick="ButtonUpdateOrderDetails_Click" Text="Update and Continue" />
         </center>
   </div>
-    </center> 
+</center> 
     
     <script type="text/javascript">
         $(' .phone1').mask('(999) 999-9999');
