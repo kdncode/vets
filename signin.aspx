@@ -23,8 +23,8 @@
              </asp:SqlDataSource><br />
                  <asp:Label ID="lblMessage" runat="server" CssClass="signin_lbl" Font-Bold="False" ForeColor="#FF6666" Font-Names="Poppins" Font-Size="Small"></asp:Label><br /><hr>
 
-             <h5><a href="contact.aspx" >Forgot Password?</a></h5><hr>
-             <h5><a href="register.aspx" >Don't have an account? Register</a></h5>
+             <h5><a href="contact.aspx">Forgot Password?</a></h5><hr>
+             <h5><a href="register.aspx">Don't have an account? Register</a></h5>
       </form>
 </div>
         
