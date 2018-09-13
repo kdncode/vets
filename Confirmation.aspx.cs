@@ -26,6 +26,7 @@ public partial class Confirmation : System.Web.UI.Page {
             DataTable dt = new DataTable();
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             da.Fill(dt);
+        
             foreach (DataRow dr in dt.Rows) {
                 SqlCommand cmd1 = con.CreateCommand();
                 cmd1.CommandType = CommandType.Text;
