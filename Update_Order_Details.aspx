@@ -40,7 +40,7 @@
         </asp:SqlDataSource> --%>
 
  <center>
-        <div class ="Login">
+   <div class ="Login">
         <h2>Ship to</h2>
         <center> 
             <asp:TextBox ID="txtFName1" runat="server" Font-Names="Poppins" placeholder="First name" CssClass="Register_un"></asp:TextBox>
