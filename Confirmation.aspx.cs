@@ -26,8 +26,7 @@ public partial class Confirmation : System.Web.UI.Page {
             DataTable dt = new DataTable();
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             da.Fill(dt);
-            foreach (DataRow dr in dt.Rows)
-            {
+            foreach (DataRow dr in dt.Rows) {
                 SqlCommand cmd1 = con.CreateCommand();
                 cmd1.CommandType = CommandType.Text;
                 cmd1.CommandText = "INSERT INTO Orders VALUES('" + dr["FirstName"].ToString() + "', '" + dr["LastName"].ToString() + "', '" + dr["Email"].ToString() + "', '" + dr["Address"].ToString() + "', '" + dr["City"].ToString() + "', '" + dr["State"].ToString() + "', '" + dr["Zipcode"].ToString() + "', '" + dr["Country"].ToString() + "', '" + dr["Phone"].ToString() + "')";
