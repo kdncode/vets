@@ -50,7 +50,6 @@
             <%-- <asp:TextBox ID="txtEmail1" runat="server" Font-Names="Poppins" placeholder="Email" CssClass="Register_un" TextMode="Email" ></asp:TextBox>
            <asp:RegularExpressionValidator ID="revEmail" Font-Names="Poppins" runat="server" ControlToValidate="txtEmail1" Font-Size="Small" ErrorMessage="You must enter a valid email" ForeColor="#FF6666" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" Font-Bold="False"></asp:RegularExpressionValidator>
             <br />--%>
-   
             <asp:TextBox ID="txtAddress1" runat="server"  placeholder="Address" Font-Names="Poppins"  CssClass="Register_un"></asp:TextBox> 
             <asp:RequiredFieldValidator ID="rfvAddress" runat="server" ErrorMessage="Please enter your address" ControlToValidate="txtAddress1" ForeColor="#FF6666"  Font-Names="Poppins" Font-Size="Small" ></asp:RequiredFieldValidator><br />
             <asp:TextBox ID="txtCity1" runat="server"  placeholder="City" Font-Names="Poppins"  CssClass="Register_un"></asp:TextBox>
