@@ -39,6 +39,7 @@ public partial class Update_Order_Details : System.Web.UI.Page {
 
     protected void ButtonUpdateOrderDetails_Click(object sender, EventArgs e) {
         con.Open();
+        
         SqlCommand cmd = con.CreateCommand();
         cmd.CommandType = CommandType.Text;
         cmd.CommandText = "UPDATE SIGNUP SET FirstName = '" + txtFName1.Text + "', LastName= '" + txtLName1.Text + "', Address= '" + txtAddress1.Text + "', City= '" + txtCity1.Text + "', State= '" + txtState1.Text + "', Zipcode= '" + txtZipcode1.Text + "', Country= '" + txtCountry1.Text + "', Phone= '" + txtPhone1.Text + "' WHERE Email = '" + Session["Username"].ToString() + "'"; 
