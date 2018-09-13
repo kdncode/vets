@@ -36,7 +36,7 @@ public partial class Confirmation : System.Web.UI.Page {
             
             SqlCommand cmd2 = con.CreateCommand();
             cmd2.CommandType = CommandType.Text;
-            cmd2.CommandText = "SELECT top 1 * FROM  Orders WHERE Email='" + Session["Username"].ToString() + "' Order by ID desc";
+            cmd2.CommandText = "SELECT top 1 * FROM Orders WHERE Email='" + Session["Username"].ToString() + "' Order by ID desc";
             cmd2.ExecuteNonQuery();
             DataTable dt2 = new DataTable();
             SqlDataAdapter da2 = new SqlDataAdapter(cmd2);
