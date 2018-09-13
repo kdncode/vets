@@ -7,8 +7,7 @@ using System.Web.UI.WebControls;
 using System.Data;
 using System.Data.SqlClient;
 
-public partial class Confirmation : System.Web.UI.Page
-{
+public partial class Confirmation : System.Web.UI.Page {
     SqlConnection con = new SqlConnection(@"Data Source=mimas.itds.unt.edu;Initial Catalog=TKC;Persist Security Info=True;User ID=TKCAdmin;Password=E(qNW9aO");
 
     string order = "";
