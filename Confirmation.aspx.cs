@@ -41,6 +41,7 @@ public partial class Confirmation : System.Web.UI.Page {
             DataTable dt2 = new DataTable();
             SqlDataAdapter da2 = new SqlDataAdapter(cmd2);
             da2.Fill(dt2);
+        
             foreach (DataRow dr2 in dt2.Rows) {
             Order_ID = dr2["ID"].ToString();
             }
