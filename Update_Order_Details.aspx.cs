@@ -34,7 +34,6 @@ public partial class Update_Order_Details : System.Web.UI.Page {
             txtZipcode1.Text = dr["Zipcode"].ToString();
             txtCountry1.Text = dr["Country"].ToString();
             txtPhone1.Text = dr["Phone"].ToString();
-
         }
     }
 
