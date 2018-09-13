@@ -12,20 +12,20 @@
             <br /><br /><br />
             <asp:Label ID="Hienthi" runat="server"></asp:Label><br />
 
-             <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
+            <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
                  ConnectionString="<%$ ConnectionStrings:TKCConnectionString %>" 
                  SelectCommand="SELECT Email, Password, FirstName, LastName, Address, City, State, Zipcode, Country, Phone FROM [SIGNUP] WHERE ([Email] = @Email) AND ([Password]=@Password)">
        
-         <SelectParameters>
-            <asp:Parameter Name="Email" Type="String" />
-            <asp:Parameter Name="Password" />
-        </SelectParameters>
+             <SelectParameters>
+                <asp:Parameter Name="Email" Type="String" />
+                <asp:Parameter Name="Password" />
+            </SelectParameters>
 
-         </asp:SqlDataSource><br />
-             <asp:Label ID="lblMessage" runat="server" CssClass="signin_lbl" Font-Bold="False" ForeColor="#FF6666" Font-Names="Poppins" Font-Size="Small"></asp:Label><br /><hr>
+             </asp:SqlDataSource><br />
+                 <asp:Label ID="lblMessage" runat="server" CssClass="signin_lbl" Font-Bold="False" ForeColor="#FF6666" Font-Names="Poppins" Font-Size="Small"></asp:Label><br /><hr>
 
-         <h5><a href="contact.aspx" >Forgot Password?</a></h5><hr>
-         <h5><a href="register.aspx" >Don't have an account? Register</a></h5>
+             <h5><a href="contact.aspx" >Forgot Password?</a></h5><hr>
+             <h5><a href="register.aspx" >Don't have an account? Register</a></h5>
      </form>
 </div>
         
