@@ -26,7 +26,7 @@
 
              <h5><a href="contact.aspx" >Forgot Password?</a></h5><hr>
              <h5><a href="register.aspx" >Don't have an account? Register</a></h5>
-     </form>
+      </form>
 </div>
         
   </center><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
