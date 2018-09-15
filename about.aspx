@@ -46,9 +46,7 @@
                                 <div class="stats-container">
                                     <div class="stats">
                                         <h4>73</h4>
-                                        <p>
-                                            Followers
-                                        </p>
+                                        <p>Followers</p>
                                     </div>
                                     <div class="stats">
                                         <h4>0</h4>
