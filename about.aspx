@@ -53,9 +53,7 @@
                                     </div>
                                     <div class="stats">
                                         <h4>35</h4>
-                                        <p>
-                                            Projects
-                                        </p>
+                                        <p> Projects </p>
                                     </div>
                                 </div>
 
