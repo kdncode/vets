@@ -49,9 +49,7 @@
                                     </div>
                                     <div class="stats">
                                         <h4>0</h4>
-                                        <p>
-                                            Following
-                                        </p>
+                                        <p>Following</p>
                                     </div>
                                     <div class="stats">
                                         <h4>35</h4>
