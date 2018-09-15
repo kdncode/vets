@@ -103,9 +103,7 @@
                                 <div class="stats-container">
                                     <div class="stats">
                                         <h4>235</h4>
-                                        <p>
-                                            Followers
-                                        </p>
+                                        <p>Followers</p>
                                     </div>
                                     <div class="stats">
                                         <h4>114</h4>
