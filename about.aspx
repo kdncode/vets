@@ -42,7 +42,6 @@
                             <div class="main">
                                 <h4 class="text-center">Job Description</h4>
                                 <p class="text-center">Web developer & designer, ASP.NET, NodeJS, Swift, Adobe Photoshop</p>
-
                                 <div class="stats-container">
                                     <div class="stats">
                                         <h4>73</h4>
