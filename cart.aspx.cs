@@ -102,6 +102,7 @@ public partial class cart : System.Web.UI.Page {
                 }
             }
         }
+        
         Session["GioHang"] = dt;
         Response.Redirect("cart.aspx");
     }
