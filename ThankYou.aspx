@@ -4,8 +4,7 @@
     <br /><br /><br /><br />
     <center>
         <h3>Thank you for shopping with us!<br /></h3>
-        <p>Please wait within 24 hours for us to confirm your orders. <br /></p>
-            <br />
+        <p>Please wait within 24 hours for us to confirm your orders. <br /></p><br />
         <asp:Button ID="btnKeepShopping" runat="server" Text="Keep Shopping" class="btn btn-outline-secondary" OnClick="btnKeepShopping_Click"></asp:Button>
 
         </center>
