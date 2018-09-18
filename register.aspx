@@ -27,7 +27,6 @@
             <asp:TextBox ID="txtPhone" runat="server" placeholder="Phone Number" Font-Names="Poppins"  CssClass="Register_un"></asp:TextBox>   <br /> 
             <asp:RegularExpressionValidator ID="RegularExpressionValidator5" ControlToValidate="txtPhone" runat="server" ForeColor="#FF6666"  Font-Names="Poppins" Font-Size="Small" 
                  ErrorMessage="Please enter a valid phone number (Ex. 123-456-7890)" ValidationExpression="((\(\d{3}\) ?)|(\d{3}-))?\d{3}-\d{4}"></asp:RegularExpressionValidator>
-
             <asp:Button ID="btnRegister" runat="server" Font-Names="Poppins" Text="Register" CssClass="Login_btn" OnClick="btnRegister_Click" /><br /><br />
             <asp:Label ID="lblExist" runat="server" Font-Names="Poppins" Font-Size="Small" ForeColor="#FF6666" Font-Bold="False"></asp:Label><br /><br />
             <h6>By creating an account, you agree to TKC's <asp:HyperLink ID="Conditions" runat="server">Conditions of Use</asp:HyperLink> and <asp:HyperLink ID="Privacy" runat="server">Privacy Notice</asp:HyperLink>.</h6><hr>
