@@ -57,8 +57,7 @@ public partial class products : System.Web.UI.Page {
 
                 foreach (DataRow row in tbGioHang.Rows)
                 {//Kiem tr neu mat hang da co roi thi tang so luong len 1
-                    if ((int)row["idSP"] == intidSP)
-                    {
+                    if ((int)row["idSP"] == intidSP) {
                         row["SoLuong"] = (int)row["SoLuong"] + 1;
                         goto GioHang;
                     }
