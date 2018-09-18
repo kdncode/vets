@@ -62,6 +62,7 @@ public partial class products : System.Web.UI.Page {
                         goto GioHang;
                     }
                 }
+            
                 tbGioHang.Rows.Add(intidSP, strTenSP, flGia, intSoLuong);
                 GioHang:
                 Session["GioHang"] = tbGioHang;      
