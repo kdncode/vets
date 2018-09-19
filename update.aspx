@@ -45,9 +45,8 @@
         </asp:SqlDataSource>  
     
             <asp:TextBox ID="txtFName" runat="server" Font-Names="Poppins" placeholder="First name" CssClass="Register_un"></asp:TextBox><br />
-            <asp:TextBox ID="txtLName" runat="server" Font-Names="Poppins" placeholder="Last name" CssClass="Register_un" ></asp:TextBox>
-           <br />
-             <asp:TextBox ID="txtEmail" runat="server" Font-Names="Poppins" placeholder="Email" CssClass="Register_un" TextMode="Email" ></asp:TextBox>
+            <asp:TextBox ID="txtLName" runat="server" Font-Names="Poppins" placeholder="Last name" CssClass="Register_un" ></asp:TextBox> <br />
+            <asp:TextBox ID="txtEmail" runat="server" Font-Names="Poppins" placeholder="Email" CssClass="Register_un" TextMode="Email" ></asp:TextBox>
            <br />
             <asp:TextBox ID="txtPassword" runat="server" Font-Names="Poppins" placeholder="Password" CssClass="Register_un" TextMode="Password"></asp:TextBox>
              
