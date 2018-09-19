@@ -49,7 +49,6 @@
             <asp:TextBox ID="txtEmail" runat="server" Font-Names="Poppins" placeholder="Email" CssClass="Register_un" TextMode="Email" ></asp:TextBox><br />
             <asp:TextBox ID="txtPassword" runat="server" Font-Names="Poppins" placeholder="Password" CssClass="Register_un" TextMode="Password"></asp:TextBox>
             <asp:TextBox ID="txtPass2" runat="server" Font-Names="Poppins" placeholder="Confirm Password" CssClass="Register_un"  TextMode="Password"></asp:TextBox>
-            
             <asp:TextBox ID="txtAddress" runat="server"  placeholder="Address" Font-Names="Poppins"  CssClass="Register_un"></asp:TextBox> 
             <br />
             <asp:TextBox ID="txtCity" runat="server"  placeholder="City" Font-Names="Poppins"  CssClass="Register_un"></asp:TextBox>
