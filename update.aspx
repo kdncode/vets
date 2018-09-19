@@ -51,8 +51,7 @@
             <asp:TextBox ID="txtPass2" runat="server" Font-Names="Poppins" placeholder="Confirm Password" CssClass="Register_un"  TextMode="Password"></asp:TextBox>
             <asp:TextBox ID="txtAddress" runat="server"  placeholder="Address" Font-Names="Poppins"  CssClass="Register_un"></asp:TextBox> <br />
             <asp:TextBox ID="txtCity" runat="server"  placeholder="City" Font-Names="Poppins"  CssClass="Register_un"></asp:TextBox><br />
-   
-             <asp:TextBox ID="txtState" runat="server"  placeholder="State" Font-Names="Poppins"  CssClass="Register_un"></asp:TextBox>     
+            <asp:TextBox ID="txtState" runat="server"  placeholder="State" Font-Names="Poppins"  CssClass="Register_un"></asp:TextBox>     
             <br />
             <asp:TextBox ID="txtZipcode" runat="server"  placeholder="Zipcode" Font-Names="Poppins"  CssClass="Register_un"></asp:TextBox>        
             <br />
