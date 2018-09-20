@@ -83,8 +83,7 @@
                     <div class="row col1">
                         <div class="col-sm-3">
                              <i class="fa fa-facebook"></i> 
-                            <i class="fa fa-twitter"></i> 
-                                  
+                            <i class="fa fa-twitter"></i>        
                         </div>
                         <div class="col-sm-9">      
                         </div>
