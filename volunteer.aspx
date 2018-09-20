@@ -88,9 +88,7 @@
                         <div class="col-sm-9">999-999-9999</div>
                     </div>
                     <div class="row col1">
-                        <div class="col-sm-3">
-                            <i class="fa fa-envelope"></i>Email
-                        </div>
+                        <div class="col-sm-3"> <i class="fa fa-envelope"></i> Email </div>
                         <div class="col-sm-9">
                              <a href="mailto:info@yourdomain.com">info@tkc.com</a> <br> <a href="mailto:support@yourdomain.com">support@tkc.com</a>
                         </div>
