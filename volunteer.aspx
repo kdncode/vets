@@ -72,7 +72,7 @@
                <div class="col-sm-5">
                    <div class="row col1">
                        <div class="col-xs-3">
-                           <i class="fa fa-map-marker" style="font-size:16px;"></i>   Address
+                           <i class="fa fa-map-marker" style="font-size:16px;"></i> Address
                        </div>
                        <div class="col-xs-9">TKC, Inc.<br> 1155 Union Cir, Denton, TX 76203</div>
                    </div>
