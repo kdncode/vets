@@ -77,9 +77,7 @@
                        <div class="col-xs-9">TKC, Inc.<br> 1155 Union Cir, Denton, TX 76203</div>
                    </div>
                     <div class="row col1">
-                        <div class="col-sm-3">
-                            <i class="fa fa-phone"></i>Phone
-                        </div>
+                        <div class="col-sm-3"><i class="fa fa-phone"></i>Phone</div>
                         <div class="col-sm-9">888-888-8888</div>
                     </div>
                     <div class="row col1">
