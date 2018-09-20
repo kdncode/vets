@@ -84,9 +84,7 @@
                         <div class="col-sm-9">888-888-8888</div>
                     </div>
                     <div class="row col1">
-                        <div class="col-sm-3">
-                             <i class="fa fa-fax"></i>Fax  
-                        </div>
+                        <div class="col-sm-3"><i class="fa fa-fax"></i> Fax </div>
                         <div class="col-sm-9">999-999-9999</div>
                     </div>
                     <div class="row col1">
