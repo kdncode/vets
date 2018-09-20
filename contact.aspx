@@ -77,7 +77,7 @@
                    
                     <div class="row col1">
                         <div class="col-sm-3">
-                            <i class="fa fa-phone"></i>   Phone
+                            <i class="fa fa-phone"></i> Phone
                         </div>
                         <div class="col-sm-9">
                              888-888-8888
