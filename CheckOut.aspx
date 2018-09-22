@@ -91,7 +91,9 @@
       color: #fff;
       background: #69e8a2 repeat-x top;
       border-left: solid 1px #c1c1c1;
-      font-size: 0.9em; }
+      font-size: 0.9em; 
+ }
+    
 .Grid .alt {
       background: #fcfcfc repeat-x top; }
 .Grid .pgr {background: #69e8a2 repeat-x top; }
