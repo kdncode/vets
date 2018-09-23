@@ -46,8 +46,7 @@ public partial class update : System.Web.UI.Page {
         cmd.CommandText = "UPDATE SIGNUP SET FirstName = '" + txtFName.Text + "', LastName= '" + txtLName.Text + "', Email= '" + txtEmail.Text + "', Password= '" + txtPassword.Text + "', Address= '" + txtAddress.Text + "', City= '" + txtCity.Text + "', State= '" + txtState.Text + "', Zipcode= '" + txtZipcode.Text + "', Country= '" + txtCountry.Text + "', Phone= '" + txtPhone.Text + "' WHERE Email = '" + Session["Username"].ToString() + "'";
         cmd.ExecuteNonQuery();
 
-        con.Close();
-        
+        con.Close();  
         Response.Redirect("MyAccount.aspx");
     }
 }
