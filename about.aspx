@@ -159,7 +159,6 @@
                             <div class="main">
                                 <h4 class="text-center">Job Description</h4>
                                 <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
-
                                 <div class="stats-container">
                                     <div class="stats">
                                         <h4>235</h4>
