@@ -142,7 +142,6 @@
                             <div class="main">
                                 <h3 class="name">Khoa Nguyen</h3>
                                 <p class="profession">Graphic Designer</p>
-
                                 <p class="text-center">"60% of the time it works 100% of the time"</p>
                             </div>
                             <div class="footer">
