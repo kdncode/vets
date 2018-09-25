@@ -10,8 +10,7 @@ public partial class welcome : System.Web.UI.Page {
         if (Session["UserName"] != null) {
             lblWelcome.Text = "Hello " + Session["Username"].ToString();
             lblWelcome.Visible = true;
-        }
-        else
+        } else
             Response.Redirect("signin.aspx");
     }
 }
