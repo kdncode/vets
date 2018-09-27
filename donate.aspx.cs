@@ -10,8 +10,7 @@ public partial class donate : System.Web.UI.Page {
 
     }
 
-    protected void DonateButton_Click(object sender, EventArgs e)
-    {
+    protected void DonateButton_Click(object sender, EventArgs e) {
         Response.Redirect("ThankYouForDonation.aspx");
     }
 }
