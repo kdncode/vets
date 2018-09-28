@@ -12,7 +12,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
    <center><br /><br />
        <center>
-                      <h2 style="color: rebeccapurple";>Make A Donation</h2><br />
+         <h2 style="color: rebeccapurple";>Make A Donation</h2><br />
     <div class="AboutTKC">
         <p>Your donation will help save a life. It enables the equipment, counselors, <br /> training, and programs to help veterans on the brink.</p>
         <br />
