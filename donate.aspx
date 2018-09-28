@@ -53,6 +53,6 @@
             
                     <asp:Button ID="DonateButton" runat="server" Font-Names="Poppins" CssClass="btn btn-outline-secondary" OnClick="DonateButton_Click" Text="Donate" />
             </div><br />
-</center>
+    </center>
 </div><br /><br /><br /><br /><br /><br /> <br /><br /><br /><br /><br /><br /><br />
 </asp:Content>
