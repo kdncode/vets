@@ -44,7 +44,7 @@
   <asp:RegularExpressionValidator ID="RegularExpressionValidator9" runat="server" ErrorMessage="Expiration date must be valid & in form MM/YYYY" 
                         ControlToValidate="TextBox11" ForeColor="#FF6666"  Font-Names="Poppins" Font-Size="Small" 
                         ValidationExpression="^((0[1-9])|(1[0-2]))\/((20)(1([7-9])|([2-9])([0-9])))$"></asp:RegularExpressionValidator>
-
+            
                     <asp:TextBox ID="TextBox13" runat="server" placeholder="CVV" 
                         CssClass="Login_un"></asp:TextBox>
                         <asp:RegularExpressionValidator ID="RegularExpressionValidator11" runat="server" ErrorMessage="CVV code must be 3 digits" 
@@ -54,5 +54,5 @@
              <asp:Button ID="DonateButton" runat="server" Font-Names="Poppins" CssClass="btn btn-outline-secondary" OnClick="DonateButton_Click" Text="Donate" />
             </div><br />
 </center>
-  </div><br /><br /><br /><br /><br /><br /> <br /><br /><br /><br /><br /><br /><br />
+</div><br /><br /><br /><br /><br /><br /> <br /><br /><br /><br /><br /><br /><br />
 </asp:Content>
