@@ -48,7 +48,7 @@
                     <asp:TextBox ID="TextBox13" runat="server" placeholder="CVV" 
                         CssClass="Login_un"></asp:TextBox>
                         <asp:RegularExpressionValidator ID="RegularExpressionValidator11" runat="server" ErrorMessage="CVV code must be 3 digits" 
-                        ControlToValidate="TextBox13" ForeColor="#FF6666"  Font-Names="Poppins" Font-Size="Small" 
+                        ControlToValidate="TextBox13" ForeColor="#FF6666" Font-Names="Poppins" Font-Size="Small" 
                         ValidationExpression="^[\d]{3,3}$"></asp:RegularExpressionValidator><br />
             
                     <asp:Button ID="DonateButton" runat="server" Font-Names="Poppins" CssClass="btn btn-outline-secondary" OnClick="DonateButton_Click" Text="Donate" />
