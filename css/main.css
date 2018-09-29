@@ -20,14 +20,13 @@ h1,h2,h3,h4,h5,h6, p, label {
 .navbar-default {
   background:#fff;
   border:0;
-  font-family:Poppins;
+  font-family: Poppins;
 }
 
 .navbar-brand{
   font-size:20px;
   color:#000 !important;
   font-weight:bold;
- 
 }
 
 .donate {
