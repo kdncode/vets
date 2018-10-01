@@ -58,7 +58,7 @@ h1,h2,h3,h4,h5,h6, p, label {
   color: white;
 }
 
-.btn-outline-secondary{   
+.btn-outline-secondary {   
     width: 240px;
     height: 46px;
     background: #36D1DC;  /* fallback for old browsers */
