@@ -198,26 +198,22 @@ textarea.form-control {
   color: #fff;
 }
 
-
-
-
 /*About */
-
-	
-
 .btn:hover,
 .btn:focus,
 .btn:active{
-    outline: 0 !important;
+ outline: 0 !important;
 }
+
 /* entire container, keeps perspective */
 .card-container {
-	  -webkit-perspective: 800px;
+   -webkit-perspective: 800px;
    -moz-perspective: 800px;
-     -o-perspective: 800px;
-        perspective: 800px;
-        margin-bottom: 30px;
+   -o-perspective: 800px;
+    perspective: 800px;
+    margin-bottom: 30px;
 }
+
 /* flip the pane when hovered */
 .card-container:not(.manual-flip):hover .card,
 .card-container.hover.manual-flip .card{
