@@ -180,10 +180,11 @@ label {
   font-weight: normal;
 }
 
-.form-control{
+.form-control {
   font-size: 1.3em;
   color: #080808;
 }
+
 textarea.form-control {
     height: 135px;
    /* margin-top: px;*/
