@@ -174,11 +174,12 @@ footer {
   margin-top: 10px;
 }
 
-label{
+label {
   font-size: 1.3em;
   line-height: 1em;
   font-weight: normal;
 }
+
 .form-control{
   font-size: 1.3em;
   color: #080808;
