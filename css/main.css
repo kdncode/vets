@@ -161,6 +161,7 @@ footer {
 .contact-section {
   padding-top: 40px;
 }
+
 .contact-section .col-md-6 {
   width: 50%;
 }
@@ -172,6 +173,7 @@ footer {
 .form-group {
   margin-top: 10px;
 }
+
 label{
   font-size: 1.3em;
   line-height: 1em;
