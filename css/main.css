@@ -223,14 +223,14 @@ textarea.form-control {
     transform: rotateY( 180deg );
 }
 
-
 .card-container.static:hover .card,
 .card-container.static.hover .card {
-	-webkit-transform: none;
+-webkit-transform: none;
 -moz-transform: none;
  -o-transform: none;
     transform: none;
 }
+
 /* flip speed goes here */
 .card {
 	 -webkit-transition: -webkit-transform .5s;
