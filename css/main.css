@@ -270,14 +270,13 @@ textarea.form-control {
         z-index: 3;
 }
 
-.back .btn-simple{
+.back .btn-simple {
     position: absolute;
     left: 0;
     bottom: 4px;
 }
+
 /*        Style       */
-
-
 .card{
     background: none repeat scroll 0 0 #FFFFFF;
     border-radius: 4px;
