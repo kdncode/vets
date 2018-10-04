@@ -602,8 +602,7 @@ background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, F
     color-interpolation: yellow; 
     font-size: 13px;   
     border: 0.5px solid #ccc;
-    border-radius: 5px;
-    
+    border-radius: 5px;  
 }
 
 .Register_btn{
