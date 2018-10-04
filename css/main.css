@@ -592,7 +592,8 @@ background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, F
 .SIGNUP {
     width: 680px;
 }
-.Register_un{
+
+.Register_un {
   float: left;
     margin: 10px 0px 0px 18px;
     width: 248px;
