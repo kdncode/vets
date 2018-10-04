@@ -350,6 +350,7 @@ box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.16);
     text-align: center;
     margin-bottom: 20px;
 }
+
 .card .footer {
     border-top: 1px solid #EEEEEE;
     color: #999999;
@@ -358,15 +359,15 @@ box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.16);
     text-align: center;
 }
 
-.card .footer .social-links{
+.card .footer .social-links {
     font-size: 18px;
 }
 
-.card .footer .social-links a{
+.card .footer .social-links a {
     margin: 0 7px;
 }
 
-.card .footer .btn-simple{
+.card .footer .btn-simple {
     margin-top: -6px;
 }
 
