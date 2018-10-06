@@ -606,8 +606,8 @@ background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, F
     border-radius: 5px;  
 }
 
-.Register_btn{
-  float: right;
+.Register_btn {
+    float: right;
     width: 248px;
     height: 44px;
     background: #69e8a2;
