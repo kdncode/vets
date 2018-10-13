@@ -523,7 +523,7 @@ box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.16);
         visibility: hidden;
         -ms-transition: all 0.2s cubic-bezier(.92,.01,.83,.67);
     }
-    .front{
+    .front {
         z-index: 4;
     }
     .card-container:not(.manual-flip):hover .back,
