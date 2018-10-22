@@ -400,7 +400,8 @@ box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.16);
 .card .stats:first-child{
 	border-right: 1px solid #EEEEEE;
 }
-.card .stats:last-child{
+
+.card .stats:last-child {
 	border-left: 1px solid #EEEEEE;
 }
 .card .stats h4{
