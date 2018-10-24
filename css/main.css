@@ -513,9 +513,7 @@ box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.16);
     color: #555;
 }
 
-
 /*       Fix bug for IE      */
-
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     .front, .back{
         -ms-backface-visibility: visible;
