@@ -5,6 +5,7 @@ body ::-webkit-input-placeholder {
   color: white;
   font-weight: 300;
 }
+
 body :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
   font-family: 'Source Sans Pro', sans-serif;
