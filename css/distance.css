@@ -16,6 +16,7 @@ a.white-mode, a.white-mode:link, a.white-mode:visited, a.white-mode:active {
   padding: 4px 8px;
   color: #f7f7f7;
 }
+
 a.white-mode:hover, a.white-mode:link:hover, a.white-mode:visited:hover, a.white-mode:active:hover {
   background: #edf3f8;
   color: #212121;
