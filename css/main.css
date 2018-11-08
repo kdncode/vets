@@ -410,12 +410,12 @@ box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.16);
 	font-weight: 300;
 	margin-bottom: 5px;
 }
+
 .card .stats p {
 	color: #777777;
 }
 
 /*      Just for presentation        */
-
 .title{
     color: #506A85;
     text-align: center;
