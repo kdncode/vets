@@ -150,6 +150,7 @@ form button:hover {
   -webkit-animation-duration: 17s;
           animation-duration: 17s;
 }
+
 .bg-bubbles li:nth-child(3) {
   left: 25%;
   -webkit-animation-delay: 4s;
