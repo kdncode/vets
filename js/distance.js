@@ -154,7 +154,7 @@ var Particle = function () {
 function popolate(num) {
   for (var i = 0; i < num; i++) {
     setTimeout(function (x) {
-      return function () {
+      return function() {
         // Add particle
         particles.push(new Particle(canvas));
       };
