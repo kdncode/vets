@@ -62,17 +62,17 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-                            <li class="active"><a href="Default.aspx" title="Home">Home</a></li>
-                            <li><a href="products.aspx" title="Products">Products</a></li>
-                            <li><a href="donate.aspx" title="Donate">Donate</a></li>
-                            <li><a href="volunteer.aspx" title="Volunteer">Volunteer</a></li>
-                            <li><a href="about.aspx" title="About">About Us</a></li> 
-                            <li><a href="contact.aspx" title="Contact">Help | Contact</a></li>
-                            <li><a href="signin.aspx" id="signinButton" runat="server" title="Sign In">Sign in</a></li>
-                            <li><a href="MyAccount.aspx" id="MyAccountButton1" runat="server" title="Sign In">My Account</a></li>
-                            <li><a id="logoutButt" runat="server" title="Log Out" onserverclick="logoutButt_ServerClick">Log out</a></li>
-                            <li><a href="register.aspx" id="registerButton" runat="server" title="Register">Register</a></li>
-                            <li><a href="cart.aspx" class='fa fa-shopping-cart'></a></li>                              
+            <li class="active"><a href="Default.aspx" title="Home">Home</a></li>
+            <li><a href="products.aspx" title="Products">Products</a></li>
+            <li><a href="donate.aspx" title="Donate">Donate</a></li>
+            <li><a href="volunteer.aspx" title="Volunteer">Volunteer</a></li>
+            <li><a href="about.aspx" title="About">About Us</a></li> 
+            <li><a href="contact.aspx" title="Contact">Help | Contact</a></li>
+            <li><a href="signin.aspx" id="signinButton" runat="server" title="Sign In">Sign in</a></li>
+            <li><a href="MyAccount.aspx" id="MyAccountButton1" runat="server" title="Sign In">My Account</a></li>
+            <li><a id="logoutButt" runat="server" title="Log Out" onserverclick="logoutButt_ServerClick">Log out</a></li>
+            <li><a href="register.aspx" id="registerButton" runat="server" title="Register">Register</a></li>
+            <li><a href="cart.aspx" class='fa fa-shopping-cart'></a></li>                              
           </ul>
 
         </div><!--/.nav-collapse -->
