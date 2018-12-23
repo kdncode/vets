@@ -46,7 +46,6 @@ public partial class Update_Order_Details : System.Web.UI.Page {
         cmd.ExecuteNonQuery();
 
         con.Close();
-
         Response.Redirect("CheckOut.aspx");
     }
 }
