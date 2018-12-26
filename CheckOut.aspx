@@ -81,26 +81,26 @@
             </div><br /><br /><br />
 <style>
 
-.Grid {background-color: #fff; margin: 5px 0 10px 0; border: solid 1px #c1c1c1; border-collapse:collapse; font-family:Poppins; color: #474747;}
-.Grid td {
-      padding: 3px;
-      border: solid 1px #c1c1c1; }
-.Grid th  {
-      position: center;
-      padding : 3px 2px;
-      color: #fff;
-      background: #69e8a2 repeat-x top;
-      border-left: solid 1px #c1c1c1;
-      font-size: 0.9em; 
- }
-    
-.Grid .alt {
-      background: #fcfcfc repeat-x top; }
-.Grid .pgr {background: #69e8a2 repeat-x top; }
-.Grid .pgr table { margin: 10px 0; }
-.Grid .pgr td { border-width: 0; padding: 0 6px; border-left: solid 1px #666; font-weight: bold; color: #fff; line-height: 12px; }  
-.Grid .pgr a { color: Gray; text-decoration: none; }
-.Grid .pgr a:hover { color: #000; text-decoration: none; }
+    .Grid {background-color: #fff; margin: 5px 0 10px 0; border: solid 1px #c1c1c1; border-collapse:collapse; font-family:Poppins; color: #474747;}
+    .Grid td {
+          padding: 3px;
+          border: solid 1px #c1c1c1; }
+    .Grid th  {
+          position: center;
+          padding : 3px 2px;
+          color: #fff;
+          background: #69e8a2 repeat-x top;
+          border-left: solid 1px #c1c1c1;
+          font-size: 0.9em; 
+     }
+
+    .Grid .alt {
+          background: #fcfcfc repeat-x top; }
+    .Grid .pgr {background: #69e8a2 repeat-x top; }
+    .Grid .pgr table { margin: 10px 0; }
+    .Grid .pgr td { border-width: 0; padding: 0 6px; border-left: solid 1px #666; font-weight: bold; color: #fff; line-height: 12px; }  
+    .Grid .pgr a { color: Gray; text-decoration: none; }
+    .Grid .pgr a:hover { color: #000; text-decoration: none; }
 
 </style>
 </center><br /><br /><br /><br /><br />   <br /><br /><br /><br /><br />   <br /><br /><br /><br /><br />   <br /><br /><br /><br /><br />  
