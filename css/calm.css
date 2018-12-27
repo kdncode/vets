@@ -160,6 +160,7 @@ form button:hover {
   -webkit-animation-delay: 4s;
           animation-delay: 4s;
 }
+
 .bg-bubbles li:nth-child(4) {
   left: 40%;
   width: 60px;
