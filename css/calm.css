@@ -44,6 +44,7 @@ body :-ms-input-placeholder {
   -webkit-transform: translateY(85px);
           transform: translateY(85px);
 }
+
 .container {
   max-width: 600px;
   margin: 0 auto;
