@@ -126,6 +126,7 @@ form button:hover {
   height: 100%;
   z-index: 1;
 }
+
 .bg-bubbles li {
   position: absolute;
   list-style: none;
