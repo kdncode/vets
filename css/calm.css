@@ -1,7 +1,7 @@
 body ::-webkit-input-placeholder {
   /* WebKit browsers */
   font-family: 'Source Sans Pro', sans-serif;
-  color: white;
+  color: #fff;
   font-weight: 300;
 }
 
