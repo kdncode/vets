@@ -192,7 +192,7 @@
 </div>
 
     <script>
-         $().ready(function(){
+         $().ready(function() {
             $('[rel="tooltip"]').tooltip();
          });
 
