@@ -36,7 +36,7 @@
         <asp:SqlDataSource ID="SqlDataSource1" runat="server"></asp:SqlDataSource>
   <b>Order total:&nbsp;</b>
     <asp:Label ID="Label1" runat="server" Text="$"></asp:Label>
-        <asp:Label ID="lbTongTien" runat="server"></asp:Label><br /><br /><br />
+    <asp:Label ID="lbTongTien" runat="server"></asp:Label><br /><br /><br />
     <asp:Button ID="Button3" Text="Update" runat="server" class="btn btn-outline-secondary" OnClick="Button3_Click"/>&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp
     <asp:Button ID="Button4" Text="Clear Cart" runat="server" class="btn btn-outline-secondary" OnClick="Button4_Click"/><br /><br />
     <asp:Button ID="Button1" Text="Continue Shopping" runat="server" class="btn btn-outline-secondary" OnClick="Button1_Click"/>&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp
