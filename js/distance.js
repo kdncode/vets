@@ -199,6 +199,7 @@ function connection() {
 /*
  * Function to update particles in canvas
  */
+
 function update() {
   clear();
   connection();
