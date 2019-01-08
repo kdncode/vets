@@ -87,9 +87,9 @@
     </form><br />
    </header>
 
-    <footer>
-        <p class="text-center">Khoa Nguyen &copy; 2018</p>
-    </footer>
+<footer>
+    <p class="text-center">Khoa Nguyen &copy; 2018</p>
+</footer>
 
  <script type="text/javascript">
     $(document).ready(function () {
