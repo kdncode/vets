@@ -5,7 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server"><br /><br /><br />
     <center>
     <div class="Welcome">
-       <p> 
+<p> 
 <asp:Label ID="lblMyAccount" runat="server" Text="Label" Font-Bold="True" Font-Size="X-Large" 
     ForeColor="red">Welcome to my website.</asp:Label>
       </p><br />
