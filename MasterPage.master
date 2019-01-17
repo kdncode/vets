@@ -18,18 +18,14 @@
     <%--phone number @ check out--%>
     <script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
     <script src="js/jquery.maskedinput.min.js" type="text/javascript"></script>
- 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-
     <%--Shopping Cart --%>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
     <%--about--%>
    <link href="css/bootstrap.css" rel="stylesheet" />
    <link href="css/rotating-card.css" rel="stylesheet" />
    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet"/>
    <link rel="stylesheet" href="css/404Animation.css">
-
     <%-- main --%>
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto%7CJosefin+Sans:100,300,400,500" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
