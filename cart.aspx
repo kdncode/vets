@@ -43,7 +43,7 @@
     <asp:Button ID="Button2" Text="Check Out" runat="server"  class="btn btn-outline-secondary" OnClick="Button2_Click"/>
 
 <style>
-    .Grid {background-color: #fff; margin: 5px 0 10px 0; border: solid 1px #c1c1c1; border-collapse:collapse; font-family:Poppins; color: #474747;}
+    .Grid { background-color: #fff; margin: 5px 0 10px 0; border: solid 1px #c1c1c1; border-collapse:collapse; font-family:Poppins; color: #474747;}
     
     .Grid td {
       padding: 20px;
