@@ -68,7 +68,7 @@
   </div>
 </center>  
 <script type="text/javascript">
-            $(' .phone1').mask('(999) 999-9999');
+            $('.phone1').mask('(999) 999-9999');
 </script>
 
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
